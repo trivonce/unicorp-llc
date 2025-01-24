@@ -13,9 +13,13 @@ export default {
 		padding: "1rem",
 	},
   	extend: {
+		fontSize: {
+			'fs60': ['var(--fs-60)', 'var(--lh-90)'],
+		},
   		colors: {
 			tp: {
 				DEFAULT: 'hsl(var(--tp))',
+				secondary: 'hsl(var(--tp-secondary))'
 			},
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
