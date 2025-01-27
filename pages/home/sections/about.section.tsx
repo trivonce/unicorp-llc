@@ -60,7 +60,7 @@ const AboutSection = () => {
   }, []);
 
   return (
-    <section id="about" className="container grid grid-cols-2 py-[60px] items-center">
+    <section id="about" className="container grid grid-cols-2 py-[60px] items-center gap-20">
       <div className="grid grid-cols-2 gap-10 items-center" ref={imagesRef}>
         <div className="flex flex-col items-end gap-10">
           <Image
@@ -101,7 +101,7 @@ const AboutSection = () => {
       </div>
 
       <div>
-        <h1 className="font-semibold text-2xl">About</h1>
+        <h1 className="font-semibold text-2xl"><span className="text-brand mr-1">#</span>About</h1>
         <p className="text-tp-secondary text-xl mt-5">
           Tech Innovations Inc. is a leading IT company dedicated to providing
           cutting-edge solutions for businesses of all sizes. With a team of

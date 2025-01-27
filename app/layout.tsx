@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/providers/theme-provider";
 import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -32,7 +33,8 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             <Navbar />
-          {children}
+              {children}
+            <Footer />
         </ThemeProvider>
       </body>
     </html>

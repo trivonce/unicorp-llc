@@ -15,14 +15,26 @@ export default {
   	extend: {
 		fontSize: {
 			'fs60': ['var(--fs-60)', 'var(--lh-90)'],
+			'fs50': ['var(--fs-50)', 'var(--lh-75)'],
+			'9xl': ['56px', '84px']
 		},
   		colors: {
 			tp: {
 				DEFAULT: 'hsl(var(--tp))',
-				secondary: 'hsl(var(--tp-secondary))'
+				secondary: 'hsl(var(--tp-secondary))',
+				tertiary: 'hsl(var(--tp-tertiary))',
+				'link-more': 'hsl(var(--tp-link-more))'
 			},
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
+			footer: {
+				DEFAULT: 'hsl(var(--footer))',
+				foreground: 'hsl(var(--footer-foreground))'
+			},
+			brand: {
+				DEFAULT: 'hsl(var(--brand))',
+				foreground: 'hsl(var(--brand-foreground))'
+			},
   			card: {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))'

@@ -5,9 +5,9 @@ const HeroSection = () => {
     <section id="hero" className="pt-[160px] pb-[60px] container">
       <div className="flex justify-center">
         <span className="mx-auto inline-block">
-          <h1 className="text-2xl font-semibold text-tp text-center">UNICORP</h1>
+          <h1 className="text-2xl font-semibold text-tp text-center">UNICORP LLC</h1>
           <img
-            className="animate-bounce duration-[2000ms] mx-auto mt-8"
+            className="animate-bounce mx-auto mt-8"
             src="/assets/shapes/arrow.svg"
             alt="arrow"
           />

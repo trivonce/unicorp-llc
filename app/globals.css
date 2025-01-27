@@ -10,7 +10,7 @@ body {
   :root {
     --background: 0 0% 100%;
     --foreground: 0 0% 3.9%;
-    --card: 0 0% 100%;
+    --card: 0 0% 98%;
     --card-foreground: 0 0% 3.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 3.9%;
@@ -33,21 +33,29 @@ body {
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
+    --brand: 194 96% 33%;
+    --brand-foreground: 0 0% 100%;
+    --footer: 0 0% 16%;
+    --footer-foreground: 0 0% 92%;
 
     /* typography */
     --tp: 0 0% 15%;
     --tp-secondary: 0 0% 43%;
+    --tp-tertiary: 0 0% 73%;
+    --tp-link-more: 0 0% 27%;
 
     /* font size */
     --fs-60: 60px;
+    --fs-50: 50px;
 
     /* line height */
     --lh-90: 90px;
+    --lh-75: 75px;
   }
   .dark {
     --background: 0 0% 11%;
     --foreground: 0 0% 98%;
-    --card: 0 0% 11%;
+    --card: 0 0% 15%;
     --card-foreground: 0 0% 98%;
     --popover: 0 0% 11%;
     --popover-foreground: 0 0% 98%;
@@ -73,6 +81,7 @@ body {
     /* typography */
     --tp: 0 0% 100%;
     --tp-secondary: 0 0% 43%;
+    --tp-link-more: 0 0% 73%;
   }
 }
 
