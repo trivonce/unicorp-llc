@@ -1,3 +1,5 @@
+'use client'
+
 // sections
 import HeroSection from "./sections/hero.section"
 import AboutSection from "./sections/about.section"

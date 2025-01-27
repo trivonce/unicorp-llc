@@ -58,14 +58,16 @@ const components: { title: string; href: string; description: string }[] = [
 
 const Navbar = () => {
   return (
-    <div className="fixed w-full left-0 top-0 z-40 bg-background">
-      <div className="container flex items-center justify-between py-10">
-        <Link href="/">Logo</Link>
+    <div id='navbar' className="fixed w-full left-0 top-0 z-40 bg-background">
+      <div className="container flex items-center justify-between py-10 gap-10">
+        <Link className="shrink-0" href="/">
+          <img className="w-[170px]" src='/assets/logo/unicorp.svg' alt="logo" />
+        </Link>
 
         <NavigationMenu>
           <NavigationMenuList className="gap-10">
             <NavigationMenuItem>
-              <Link href="/docs" legacyBehavior passHref>
+              <Link href="/about" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   Abous us
                 </NavigationMenuLink>
@@ -79,7 +81,7 @@ const Navbar = () => {
                     <NavigationMenuLink asChild>
                       <a
                         className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                        href="/"
+                        href="/services"
                       >
                         LOGO
                         <div className="mb-2 mt-4 text-lg font-medium">
@@ -92,14 +94,14 @@ const Navbar = () => {
                       </a>
                     </NavigationMenuLink>
                   </li>
-                  <ListItem href="/docs" title="Introduction">
+                  <ListItem href="/projects" title="Introduction">
                     Re-usable components built using Radix UI and Tailwind CSS.
                   </ListItem>
-                  <ListItem href="/docs/installation" title="Installation">
+                  <ListItem href="/projects" title="Installation">
                     How to install dependencies and structure your app.
                   </ListItem>
                   <ListItem
-                    href="/docs/primitives/typography"
+                    href="/projects"
                     title="Typography"
                   >
                     Styles for headings, paragraphs, lists...etc
@@ -124,7 +126,7 @@ const Navbar = () => {
               </NavigationMenuContent>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="/docs" legacyBehavior passHref>
+              <Link href="/contact" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   Contact us
                 </NavigationMenuLink>
@@ -135,9 +137,9 @@ const Navbar = () => {
 
         <div className="flex items-center gap-4">
           <ModeToggle />
-          <Separator className="h-6 " orientation="vertical" />
+          <Separator className="h-6" orientation="vertical" />
           <LanguageToggle />
-          <Separator className="h-6 " orientation="vertical" />
+          <Separator className="h-6" orientation="vertical" />
           <Button>Start your project</Button>
         </div>
       </div>

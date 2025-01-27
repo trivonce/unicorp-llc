@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${poppins.variable} antialiased`}
+        className={`${poppins.variable} antialiased min-h-screen`}
       >
         <ThemeProvider
             attribute="class"
@@ -33,7 +33,9 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             <Navbar />
-              {children}
+              <main className="pt-[120px]">
+                {children}
+              </main>
             <Footer />
         </ThemeProvider>
       </body>

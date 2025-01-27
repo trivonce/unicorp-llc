@@ -1,3 +1,5 @@
+'use client'
+
 import Link from "next/link";
 import SocialsLine from "./socials-line";
 
@@ -35,7 +37,7 @@ const Footer = () => {
             <Link href="/">
               <img src="/assets/logo/unicorp-white.svg" alt="logo" />
             </Link>
-            <p className="mt-3 text-[#878787] text-xs">
+            <p className="mt-2 text-[#878787] text-sm">
               OOO UNICORP - {currentYear}
             </p>
           </div>

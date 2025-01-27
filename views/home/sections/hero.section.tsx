@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section id="hero" className="pt-[160px] pb-[60px] container">
+    <section id="hero" className="pt-10 pb-[60px] container">
       <div className="flex justify-center">
         <span className="mx-auto inline-block">
           <h1 className="text-2xl font-semibold text-tp text-center">UNICORP LLC</h1>
