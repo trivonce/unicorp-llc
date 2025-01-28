@@ -1,5 +1,7 @@
+import PortfolioView from "@/views/portfolio"
+
 const Page = () => {
-    return <h1>Portfolio</h1>
+    return <PortfolioView />
 }
 
 export default Page

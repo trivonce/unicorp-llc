@@ -1,0 +1,117 @@
+[
+    {
+      "title": {
+        "en": "Web development",
+        "ru": "Веб-разработка",
+        "uz": "Veb-ishlanmalar"
+      },
+      "description": {
+        "en": "We create stunning and functional websites, from corporate sites to robust web applications. Whether you need a portfolio, e-commerce platform, or a custom solution, we deliver user-friendly and scalable web experiences tailored to your goals.",
+        "ru": "Мы создаем потрясающие и функциональные веб-сайты, от корпоративных сайтов до мощных веб-приложений. Если вам нужен портфель, платформа электронной коммерции или индивидуальное решение, мы предоставляем удобные и масштабируемые веб-опыты, ориентированные на ваши цели.",
+        "uz": "Biz ajoyib va funksional veb-saytlar yaratamiz, korporativ saytlardan tortib kuchli veb-ilovalargacha. Agar sizga portfel, elektron tijorat platformasi yoki maxsus yechim kerak bo'lsa, biz sizning maqsadlaringizga mos keladigan foydalanuvchi uchun qulay va kengaytiriladigan veb tajribalarni taqdim etamiz."
+      },
+      "short_description": {
+        "en": "From corporate websites to web applications",
+        "ru": "От корпоративных сайтов до веб-приложений",
+        "uz": "Korporativ saytlardan veb-ilovalargacha"
+      },
+      "main": true,
+      "image": "https://placehold.co/600x400"
+    },
+    {
+      "title": {
+        "en": "Mobile apps",
+        "ru": "Мобильные приложения",
+        "uz": "Mobil ilovalar"
+      },
+      "description": {
+        "en": "Transform your ideas into reality with custom mobile applications for iOS and Android. Our team develops intuitive, feature-rich, and responsive apps to elevate your brand and engage your users effectively.",
+        "ru": "Преобразуйте свои идеи в реальность с помощью индивидуальных мобильных приложений для iOS и Android. Наша команда разрабатывает интуитивно понятные, функциональные и отзывчивые приложения, чтобы повысить ваш бренд и эффективно взаимодействовать с пользователями.",
+        "uz": "O'z g'oyangizni iOS va Android uchun moslashtirilgan mobil ilovalar orqali haqiqatga aylantiring. Bizning jamoamiz intuitiv, boy funksiyali va moslashuvchan ilovalarni ishlab chiqadi, bu esa sizning brendingizni rivojlantirish va foydalanuvchilaringiz bilan samarali aloqada bo'lishni ta'minlaydi."
+      },
+      "short_description": {
+        "en": "Custom iOS and Android apps to engage your users effectively.",
+        "ru": "Индивидуальные мобильные приложения для iOS и Android для эффективного взаимодействия с пользователями.",
+        "uz": "Foydalanuvchilaringiz bilan samarali aloqada bo'lish uchun moslashtirilgan iOS va Android ilovalari."
+      },
+      "main": false,
+      "image": "https://placehold.co/400x600"
+    },
+    {
+      "title": {
+        "en": "UI&UX design",
+        "ru": "Дизайн UI/UX",
+        "uz": "UI va UX dizayni"
+      },
+      "description": {
+        "en": "Craft visually stunning and user-friendly interfaces with our UI/UX design services. We focus on delivering seamless and engaging user experiences that keep your customers coming back for more.",
+        "ru": "Создавайте визуально потрясающие и удобные интерфейсы с нашими услугами дизайна UI/UX. Мы ориентируемся на создание бесперебойных и увлекательных пользовательских интерфейсов, которые заставляют ваших клиентов возвращаться снова и снова.",
+        "uz": "Bizning UI/UX dizayn xizmatlarimiz orqali vizual jihatdan ajoyib va foydalanuvchilar uchun qulay interfeyslar yarating. Biz mijozlaringizni qayta-qayta takrorlashiga olib keladigan, uzluksiz va qiziqarli foydalanuvchi tajribalarini taqdim etishga e'tibor qaratamiz."
+      },
+      "short_description": {
+        "en": "Creating intuitive, beautiful, and user-friendly designs.",
+        "ru": "Создание интуитивно понятных, красивых и удобных дизайнов.",
+        "uz": "Intuitiv, chiroyli va foydalanuvchilar uchun qulay dizaynlar yaratish."
+      },
+      "main": false,
+      "image": "https://placehold.co/400x600"
+    },
+    {
+      "title": {
+        "en": "CRM systems",
+        "ru": "CRM-системы",
+        "uz": "CRM tizimlari"
+      },
+      "description": {
+        "en": "Streamline your business processes with powerful and customizable CRM systems. From sales tracking to customer relationship management, we provide tools that improve efficiency and drive growth.",
+        "ru": "Оптимизируйте ваши бизнес-процессы с помощью мощных и настраиваемых CRM-систем. От отслеживания продаж до управления взаимоотношениями с клиентами — мы предоставляем инструменты, которые улучшают эффективность и способствуют росту.",
+        "uz": "Sizning biznes jarayonlaringizni kuchli va sozlanadigan CRM tizimlari yordamida soddalashtiring. Savdolarni kuzatishdan tortib mijozlar bilan munosabatlarni boshqarishgacha, biz samaradorlikni oshirish va o'sishni rag'batlantirish uchun vositalarni taqdim etamiz."
+      },
+      "short_description": {
+        "en": "Streamline operations with customizable CRM solutions.",
+        "ru": "Упростите операции с помощью настраиваемых CRM-решений.",
+        "uz": "Moslashtiriladigan CRM yechimlari bilan operatsiyalarni soddalashtiring."
+      },
+      "main": false,
+      "image": "https://placehold.co/400x600"
+    },
+    {
+      "title": {
+        "en": "Artificial Intelligence",
+        "ru": "Искусственный интеллект",
+        "uz": "Sun'iy intellekt"
+      },
+      "description": {
+        "en": "Leverage cutting-edge AI solutions to automate tasks, analyze data, and enhance customer experiences. From AI-powered chatbots to predictive analytics, we help your business stay ahead of the curve.",
+        "ru": "Используйте передовые решения на базе искусственного интеллекта для автоматизации задач, анализа данных и улучшения клиентского опыта. От чат-ботов на базе ИИ до предсказательной аналитики — мы помогаем вашему бизнесу оставаться на шаг впереди.",
+        "uz": "Avangard sun'iy intellekt yechimlarini vazifalarni avtomatlashtirish, ma'lumotlarni tahlil qilish va mijoz tajribalarini yaxshilash uchun foydalaning. AI asosidagi chatbotlardan tortib prognozlash tahliliga qadar, biz sizning biznesingizni oldinda saqlashga yordam beramiz."
+      },
+      "short_description": {
+        "en": "Automating tasks and enhancing insights with AI tools.",
+        "ru": "Автоматизация задач и улучшение анализа с помощью инструментов ИИ.",
+        "uz": "AI vositalari yordamida vazifalarni avtomatlashtirish va tahlilni yaxshilash."
+      },
+      "main": false,
+      "image": "https://placehold.co/400x600"
+    },
+    {
+      "title": {
+        "en": "Business analysis",
+        "ru": "Бизнес-анализ",
+        "uz": "Biznes tahlili"
+      },
+      "description": {
+        "en": "Make informed decisions with our in-depth business analysis services. We identify pain points, streamline operations, and uncover opportunities to help your business achieve its full potential.",
+        "ru": "Принимайте обоснованные решения с нашими глубокими услугами бизнес-анализа. Мы выявляем болевые точки, оптимизируем процессы и находим возможности для того, чтобы ваш бизнес достиг максимального потенциала.",
+        "uz": "Biznes tahlili xizmatlarimiz orqali xabardor qarorlar qabul qiling. Biz og'riqli nuqtalarni aniqlaymiz, jarayonlarni soddalashtiramiz va biznesingizni to'liq imkoniyatlarini amalga oshirishga yordam beradigan imkoniyatlarni ochamiz."
+      },
+      "short_description": {
+        "en": "Improving efficiency through in-depth business insights.",
+        "ru": "Повышение эффективности через глубокие бизнес-инсайты.",
+        "uz": "Chuqur biznes tahlillari orqali samaradorlikni oshirish."
+      },
+      "main": false,
+      "image": "https://placehold.co/400x600"
+    }
+  ]
+  

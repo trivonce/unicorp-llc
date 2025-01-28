@@ -23,7 +23,8 @@ export default {
 				DEFAULT: 'hsl(var(--tp))',
 				secondary: 'hsl(var(--tp-secondary))',
 				tertiary: 'hsl(var(--tp-tertiary))',
-				'link-more': 'hsl(var(--tp-link-more))'
+				'link-more': 'hsl(var(--tp-link-more))',
+				'white-500': 'hsl(var(--tp-white-500))'
 			},
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

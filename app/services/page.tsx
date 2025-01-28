@@ -1,5 +1,7 @@
+import ServicesView from "@/views/services"
+
 const Page = () => {
-    return <h1>Services</h1>
+    return <ServicesView />
 }
 
 export default Page

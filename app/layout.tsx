@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/providers/theme-provider";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+import TanstackProvider from "@/providers/tanstack-provider";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -26,6 +27,7 @@ export default function RootLayout({
       <body
         className={`${poppins.variable} antialiased min-h-screen`}
       >
+        <TanstackProvider>
         <ThemeProvider
             attribute="class"
             defaultTheme="system"
@@ -38,6 +40,7 @@ export default function RootLayout({
               </main>
             <Footer />
         </ThemeProvider>
+        </TanstackProvider>
       </body>
     </html>
   );

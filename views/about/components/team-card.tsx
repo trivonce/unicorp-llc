@@ -39,7 +39,7 @@ const TeamCard = (props: Props) => {
         <div className="flex gap-2.5 mt-2.5">
           {Object.keys(socials).map((key, index) => (
             <a target="__blank" href={socials[key]} key={index}>
-              <Icon color="#858585" className="hover:!bg-white" icon={key} />
+              <Icon color="#858585" className="hover:!bg-brand" icon={key} />
             </a>
           ))}
         </div>
