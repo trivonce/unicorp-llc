@@ -7,7 +7,7 @@ const HeroSection = () => {
         <span className="mx-auto inline-block">
           <h1 className="text-2xl font-semibold text-tp text-center">UNICORP LLC</h1>
           <img
-            className="animate-bounce mx-auto mt-8"
+            className="animate-bounce mx-auto mt-8 min-h-[104px]"
             src="/assets/shapes/arrow.svg"
             alt="arrow"
           />
