@@ -16,6 +16,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "UNICORP LLC",
   description: "UNICORP LLC - IT Company in Uzbekistan",
+  icons: {
+    icon: '/favicon.png',
+  }
 };
 
 export default function RootLayout({

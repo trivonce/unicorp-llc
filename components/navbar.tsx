@@ -12,76 +12,23 @@ import {
 import { cn } from "@/lib/utils";
 
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { ModeToggle } from "./mode-toggle";
 import LanguageToggle from "./language-toggle";
 import { Separator } from "./ui/separator";
 import { Button } from "./ui/button";
 import { useMountedTheme } from "@/hooks/use-mounted-theme";
 import Image from "next/image";
-import { useServices } from "@/features/services/hooks";
-import { Skeleton } from "./ui/skeleton";
 import { usePathname, useRouter } from "next/navigation";
 
 // db
 import services from '@/db/services.json'
 import portfolio from '@/db/portfolio.json'
 
-const components: { title: string; href: string; description: string }[] = [
-  {
-    title: "Alert Dialog",
-    href: "/portfolio",
-    description:
-      "A modal dialog that interrupts the user with important content and expects a response.",
-  },
-  {
-    title: "Hover Card",
-    href: "/portfolio",
-    description:
-      "For sighted users to preview content available behind a link.",
-  },
-  {
-    title: "Progress",
-    href: "/portfolio",
-    description:
-      "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
-  },
-  {
-    title: "Scroll-area",
-    href: "/portfolio",
-    description: "Visually or semantically separates content.",
-  },
-  {
-    title: "Tabs",
-    href: "/portfolio",
-    description:
-      "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
-  },
-  {
-    title: "Tooltip",
-    href: "/portfolio",
-    description:
-      "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
-  },
-];
-
 const Navbar = () => {
   const router = useRouter()
   const { theme, resolvedTheme, mounted } = useMountedTheme();
   const pathname = usePathname()
-  console.log(pathname)
-  // const [main, setMain] = useState<any>({})
-  // const [rest, setRest] = useState<any>([])
-  // const { data, isLoading }: any = useServices()
-
-  // useEffect(() => {
-  //   if (data) {
-  //     const main = data.find((service: any) => service.main)
-  //     const rest = data.filter((service: any) => !service.main)
-  //     setRest(rest)
-  //     setMain(main)
-  //   }
-  // }, [data])
 
   const logoSrc = `/assets/logo/unicorp${
     mounted && (theme || resolvedTheme) === "light" ? "-light" : "-dark"
