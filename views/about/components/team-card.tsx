@@ -22,16 +22,18 @@ const TeamCard = (props: Props) => {
 
   return (
     <Card>
-      <CardHeader className="p-5">
+      <CardHeader className="p-5 overflow-hidden">
         <CardTitle className="sr-only"></CardTitle>
+        <div className="overflow-hidden rounded">
         <Image
           unoptimized
-          className="w-full h-[400px] object-cover rounded !mt-0"
+          className="w-full h-[400px] object-cover rounded !mt-0 hover:scale-110 duration-200"
           src={`/assets/images/team/${image}.png`}
           width={0}
           height={0}
           alt={full_name || "team image"}
         />
+        </div>
       </CardHeader>
       <CardContent className="p-5 pt-0">
         <h1 className="text-2xl font-semibold">{full_name}</h1>

@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/providers/theme-provider";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import TanstackProvider from "@/providers/tanstack-provider";
+import NextTopLoader from 'nextjs-toploader';
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -27,6 +28,7 @@ export default function RootLayout({
       <body
         className={`${poppins.variable} antialiased min-h-screen`}
       >
+        <NextTopLoader color="hsl(var(--brand))" />
         <TanstackProvider>
         <ThemeProvider
             attribute="class"

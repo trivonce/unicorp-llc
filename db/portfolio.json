@@ -1,0 +1,68 @@
+[
+    {
+        "id": "mycareapp",
+        "title": "My Care App",
+        "short_description": {
+            "en": "A mobile app for health and wellness management.",
+            "uz": "Sog'liq va farovonlikni boshqarish uchun mobil ilova.",
+            "ru": "Мобильное приложение для управления здоровьем и благополучием."
+        },
+        "description": {
+            "en": "My Care App is a comprehensive mobile application designed to empower users to take control of their health and wellness. It offers features such as personalized health tracking, medication reminders, fitness plans, and access to professional medical advice. Whether you're managing a chronic condition, tracking your fitness goals, or simply staying informed about your health, My Care App provides the tools and resources you need to live a healthier, more balanced life.",
+            "uz": "My Care App - bu foydalanuvchilarga sog'liq va farovonlikni boshqarish imkoniyatini beruvchi keng qamrovli mobil ilova. U shaxsiylashtirilgan sog'liqni kuzatish, dori-darmon eslatmalari, fitnes rejalari va professional tibbiy maslahatlarga kirish kabi funksiyalarni taklif etadi. Surunkali kasallikni boshqarmoqchi bo'lganingizda, fitnes maqsadlaringizni kuzatmoqchi bo'lganingizda yoki shunchaki sog'liq haqida ma'lumotli bo'lishni istasangiz, My Care App sizga sog'lom va muvozanatli hayot kechirish uchun kerakli vositalar va resurslarni taqdim etadi.",
+            "ru": "My Care App — это комплексное мобильное приложение, созданное для того, чтобы помочь пользователям взять под контроль свое здоровье и благополучие. Оно предлагает такие функции, как персонализированный мониторинг здоровья, напоминания о приеме лекарств, планы тренировок и доступ к профессиональным медицинским консультациям. Независимо от того, управляете ли вы хроническим заболеванием, отслеживаете свои фитнес-цели или просто хотите быть в курсе своего здоровья, My Care App предоставляет инструменты и ресурсы, необходимые для более здоровой и сбалансированной жизни."
+        },
+        "tags": [
+            {
+                "en": "Mobile App",
+                "uz": "Mobil Ilova",
+                "ru": "Мобильное Приложение"
+            },
+            {
+                "en": "Health Care",
+                "uz": "Sog'liqni Saqlash",
+                "ru": "Здравоохранение"
+            },
+            {
+                "en": "Wellness",
+                "uz": "Farovonlik",
+                "ru": "Благополучие"
+            }
+        ],
+        "image": "https://placehold.co/600x400",
+        "link": "https://mycareapp.uz"
+    },
+    {
+        "id": "erp",
+        "title": "ERP System for Manufacturing",
+        "short_description": {
+            "en": "A web-based ERP system for manufacturing industries.",
+            "uz": "Ishlab chiqarish sanoati uchun veb-asosidagi ERP tizimi.",
+            "ru": "Веб-решение ERP для производственных отраслей."
+        },
+        "description": {
+            "en": "This ERP (Enterprise Resource Planning) system is a powerful web-based solution tailored specifically for manufacturing industries. It streamlines operations by integrating key business processes such as inventory management, production planning, supply chain management, and financial tracking. With real-time data analytics and reporting, this ERP system helps manufacturers optimize efficiency, reduce costs, and improve decision-making, ensuring seamless operations and sustainable growth.",
+            "uz": "Ushbu ERP (Enterprise Resource Planning) tizimi ishlab chiqarish sanoati uchun maxsus yaratilgan kuchli veb-asosidagi yechimdir. U inventarizatsiyani boshqarish, ishlab chiqarishni rejalashtirish, ta'minot zanjirini boshqarish va moliyaviy hisobot kabi asosiy biznes jarayonlarini birlashtirib, operatsiyalarni soddalashtiradi. Real vaqtda ma'lumotlar tahlili va hisobotlari bilan ushbu ERP tizimi ishlab chiqaruvchilarga samaradorlikni oshirish, xarajatlarni kamaytirish va qarorlar qabul qilishni yaxshilashga yordam beradi, bu esa uzluksiz operatsiyalar va barqaror o'sishni ta'minlaydi.",
+            "ru": "Эта ERP (система планирования ресурсов предприятия) — это мощное веб-решение, разработанное специально для производственных отраслей. Она упрощает операции, интегрируя ключевые бизнес-процессы, такие как управление запасами, планирование производства, управление цепочками поставок и финансовый учет. Благодаря аналитике и отчетности в реальном времени, эта ERP-система помогает производителям оптимизировать эффективность, снижать затраты и улучшать принятие решений, обеспечивая бесперебойные операции и устойчивый рост."
+        },
+        "tags": [
+            {
+                "en": "Web Application",
+                "uz": "Veb Ilova",
+                "ru": "Веб-Приложение"
+            },
+            {
+                "en": "ERP",
+                "uz": "ERP",
+                "ru": "ERP"
+            },
+            {
+                "en": "Manufacturing",
+                "uz": "Ishlab Chiqarish",
+                "ru": "Производство"
+            }
+        ],
+        "image": "https://placehold.co/600x400",
+        "link": "https://crm.2003.uz/"
+    }
+]

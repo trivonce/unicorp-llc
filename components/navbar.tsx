@@ -21,8 +21,11 @@ import { useMountedTheme } from "@/hooks/use-mounted-theme";
 import Image from "next/image";
 import { useServices } from "@/features/services/hooks";
 import { Skeleton } from "./ui/skeleton";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
+
+// db
 import services from '@/db/services.json'
+import portfolio from '@/db/portfolio.json'
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -65,6 +68,8 @@ const components: { title: string; href: string; description: string }[] = [
 const Navbar = () => {
   const router = useRouter()
   const { theme, resolvedTheme, mounted } = useMountedTheme();
+  const pathname = usePathname()
+  console.log(pathname)
   // const [main, setMain] = useState<any>({})
   // const [rest, setRest] = useState<any>([])
   // const { data, isLoading }: any = useServices()
@@ -83,7 +88,7 @@ const Navbar = () => {
   }.svg`;
 
   return (
-    <div id="navbar" className="fixed w-full left-0 top-5 z-40 bg-background">
+    <div id="navbar" className="fixed w-full left-0 top-0 z-40 bg-background">
       <div className="container flex items-center justify-between py-5 px-10 gap-10 rounded-[30px]">
         <Link className="shrink-0" href="/">
           {mounted ? (
@@ -97,7 +102,7 @@ const Navbar = () => {
           <NavigationMenuList className="gap-10">
             <NavigationMenuItem>
               <Link href="/about" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                <NavigationMenuLink active={pathname === "/about"} className={navigationMenuTriggerStyle()}>
                   Abous us
                 </NavigationMenuLink>
               </Link>
@@ -142,13 +147,13 @@ const Navbar = () => {
               <NavigationMenuTrigger>Portfolio</NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-                  {components.map((component) => (
+                  {portfolio.map((component) => (
                     <ListItem
                       key={component.title}
                       title={component.title}
-                      href={component.href}
+                      href={'/portfolio'}
                     >
-                      {component.description}
+                      {component.description.en}
                     </ListItem>
                   ))}
                 </ul>
@@ -156,7 +161,7 @@ const Navbar = () => {
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="/contact" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                <NavigationMenuLink active={pathname === "/contact"} className={navigationMenuTriggerStyle()}>
                   Contact us
                 </NavigationMenuLink>
               </Link>

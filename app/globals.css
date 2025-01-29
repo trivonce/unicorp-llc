@@ -27,6 +27,9 @@ body {
   -webkit-mask-image: url(/public/assets/logo/unicorp.svg);
 }
 
+.map {
+  filter: grayscale(80%) invert(100%) contrast(80%);
+}
 
 @layer base {
   :root {

@@ -1,14 +1,7 @@
 import ProjectCard from "../home/components/ProjectCard";
+import portfolio from "@/db/portfolio.json"
 
 const PortfolioView = () => {
-    const portfolio = Array.from({ length: 10 }, (_, index) => ({
-      id: index + 1,
-      slug: `project-${index + 1}`,
-      image: `https://placehold.co/400x600`,
-      title: `Project ${index + 1}`,
-      description: `Description of Project ${index + 1}`,
-      tags: ["Tag 1", "Tag 2", "Tag 3"],
-    }))
 
   return (
     <main>
