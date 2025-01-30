@@ -112,7 +112,7 @@ const AboutSection = () => {
           enhance productivity and drive growth.
         </p>
 
-        <Link data-aos='fade-up' className="mt-10 inline-block text-xl hover:underline" href="/about">
+        <Link id="link" data-aos='fade-up' className="mt-10 inline-block text-xl hover:underline" href="/about">
           More information...
         </Link>
       </div>

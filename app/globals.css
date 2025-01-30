@@ -2,8 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  cursor: none !important;
+}
+
+
+
+.link-cursor {
+
+}
+
+
 body {
   font-family: Poppins, sans-serif;
+  overflow-x: hidden;
+  cursor: url('/assets/icons/cursor.png') 16 16, auto !important;
 }
 
 .icon {

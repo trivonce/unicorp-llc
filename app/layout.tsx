@@ -8,6 +8,7 @@ import TanstackProvider from "@/providers/tanstack-provider";
 import NextTopLoader from 'nextjs-toploader';
 import Aos from "@/lib/aos";
 import 'aos/dist/aos.css'; 
+import Cursor from "@/components/cursor";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -33,6 +34,7 @@ export default function RootLayout({
       <body
         className={`${poppins.variable} antialiased min-h-screen`}
       >
+        <Cursor />
         <Aos />
         <NextTopLoader color="hsl(var(--brand))" />
         <TanstackProvider>
