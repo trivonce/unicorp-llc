@@ -21,7 +21,29 @@ export const metadata: Metadata = {
   description: "UNICORP LLC - IT Company in Uzbekistan",
   icons: {
     icon: '/favicon.png',
-  }
+  },
+  openGraph: {
+    title: 'UNICORP LLC - IT Company in Uzbekistan',
+    description: 'UNICORP LLC is a leading IT company in Uzbekistan.',
+    url: 'https://unicorp.uz/',
+    siteName: 'UNICORP LLC',
+    images: [
+      {
+        url: '/favicon.png',
+        width: 800,
+        height: 600,
+        alt: 'UNICORP LLC Logo',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'UNICORP LLC - IT Company in Uzbekistan',
+    description: 'UNICORP LLC is a leading IT company in Uzbekistan.',
+    images: ['/favicon.png'],
+  },
 };
 
 export default function RootLayout({
