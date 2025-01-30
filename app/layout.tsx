@@ -22,6 +22,23 @@ export const metadata: Metadata = {
   icons: {
     icon: '/favicon.png',
   },
+  authors: {
+    name: 'UNICORP LLC',
+    url: 'https://unicorp.uz/',
+  },
+  keywords: [
+    'UNICORP LLC',
+    'IT Company in Uzbekistan',
+    'UNICORP LLC - IT Company in Uzbekistan',
+    'UNICORP LLC - IT Company in Uzbekistan - Software Development Company',
+    'UNICORP LLC - IT Company in Uzbekistan - Software Development Company - Web Development Services',
+    'UNICORP LLC - IT Company in Uzbekistan - Software Development Company - Mobile App Development Services',
+    'UNICORP LLC - IT Company in Uzbekistan - Software Development Company - Blockchain Development Services',
+    'UNICORP LLC - IT Company in Uzbekistan - Software Development Company - Blockchain Development Services - Smart Contract Development',
+    'UNICORP LLC - IT Company in Uzbekistan - Software Development Company - Blockchain Development Services - Smart Contract Development - DApp Development',
+    'UNICORP LLC - IT Company in Uzbekistan - Software Development Company - Blockchain Development Services - Smart Contract Development - DApp Development - NFT Development',
+    'UNICORP LLC - IT Company in Uzbekistan - Software Development Company - Blockchain Development Services - Smart Contract Development - DApp Development - NFT Development - Crypto Development',
+  ],
   openGraph: {
     title: 'UNICORP LLC - IT Company in Uzbekistan',
     description: 'UNICORP LLC is a leading IT company in Uzbekistan.',
