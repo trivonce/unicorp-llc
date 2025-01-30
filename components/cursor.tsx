@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { useCursor } from '@/hooks/use-cursor';
+import { motion } from "framer-motion";
+import { useCursor } from "@/hooks/use-cursor";
 
 export default function Cursor() {
   const { mousePosition, cursorVariant } = useCursor();
@@ -11,8 +11,8 @@ export default function Cursor() {
       x: mousePosition.x - 16,
       y: mousePosition.y - 16,
       transition: {
-        type: 'tween',
-        ease: 'linear',
+        type: "tween",
+        ease: "linear",
         duration: 0.03,
       },
     },
@@ -21,53 +21,52 @@ export default function Cursor() {
       width: 100,
       x: mousePosition.x - 50,
       y: mousePosition.y - 50,
-      backgroundColor: '#fff',
-      mixBlendMode: 'difference',
+      backgroundColor: "#fff",
+      mixBlendMode: "difference",
       transition: {
-        type: 'tween',
-        ease: 'linear',
+        type: "tween",
+        ease: "linear",
         duration: 0.1,
       },
     },
     link: {
-        height: 100,
-        width: 100,
-        x: mousePosition.x - 50,
-        y: mousePosition.y - 50,
-        backgroundColor: '#fff',
-        mixBlendMode: 'difference',
-        transition: {
-          type: 'tween',
-          ease: 'linear',
-          duration: 0.1,
-        },
+      height: 100,
+      width: 100,
+      x: mousePosition.x - 50,
+      y: mousePosition.y - 50,
+      backgroundColor: "#fff",
+      mixBlendMode: "difference",
+      transition: {
+        type: "tween",
+        ease: "linear",
+        duration: 0.1,
       },
+    },
   };
 
-
   return (
-      <motion.div
-        className={`${cursorVariant}-cursor cursor`}
-        variants={variants}
-        animate={cursorVariant}
-        style={{
-          position: 'fixed',
-          top: 0,
-          left: 0,
-          width: '32px',
-          height: '32px',
-          backgroundColor: '#fff',
-          zIndex: 9999,
-          borderRadius: '50%',
-          pointerEvents: 'none',
-          mixBlendMode: 'difference',
-          backdropFilter: 'blur(1px)',
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-        }}
-      >
-              {cursorVariant === 'link' && (
+    <motion.div
+      className={`${cursorVariant}-cursor cursor`}
+      variants={variants}
+      animate={cursorVariant}
+      style={{
+        position: "fixed",
+        top: 0,
+        left: 0,
+        width: "32px",
+        height: "32px",
+        backgroundColor: "#fff",
+        zIndex: 9999,
+        borderRadius: "50%",
+        pointerEvents: "none",
+        mixBlendMode: "difference",
+        backdropFilter: "blur(1px)",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      {cursorVariant === "link" && (
         <motion.img
           src="/assets/icons/arrow-top-right-long.svg"
           alt="Link Icon"
@@ -79,6 +78,6 @@ export default function Cursor() {
           transition={{ duration: 0.1 }}
         />
       )}
-      </motion.div>
+    </motion.div>
   );
 }
