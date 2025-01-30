@@ -5,7 +5,7 @@ import portfolio from '@/db/portfolio.json'
 const ProjectsSection = () => {
   return (
     <section id="projects" className="container py-[60px]">
-      <h1 className="text-2xl font-semibold">
+      <h1 data-aos='fade-right' className="text-2xl font-semibold">
         <span className="text-brand mr-1">#</span>Our Projects
       </h1>
 

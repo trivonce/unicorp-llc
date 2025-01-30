@@ -19,7 +19,7 @@ const ProjectCard = (props: Props) => {
   const { image, title, description, tags, index, link } = props;
   return (
     <div className="grid grid-cols-2 gap-[50px]">
-      <div className="overflow-hidden rounded-md" style={{ order: index % 2 === 0 ? 1 : 2 }}>
+      <div data-aos={index % 2 === 0 ? "fade-right" : "fade-left"} className="overflow-hidden rounded-md" style={{ order: index % 2 === 0 ? 1 : 2 }}>
         <Image
           src={image}
           alt={title + " image"}
@@ -31,11 +31,13 @@ const ProjectCard = (props: Props) => {
 
       <div style={{ order: index % 2 === 0 ? 2 : 1 }} className="flex flex-col justify-between gap-10">
         <div>
-          <h1 className="font-medium text-fs50">{title}</h1>
+          <h1 data-aos='fade-down' className="font-medium text-fs50">{title}</h1>
 
           <div className="flex items-center gap-2.5 mt-2 flex-wrap">
             {tags.map((tag: any, index: number) => (
               <span
+                data-aos="fade-rigth"
+                data-aos-delay={index * 100}
                 key={index}
                 className="py-2.5 border rounded-[100px] px-[30px] border-tp-tertiary text-tp-tertiary"
               >
@@ -46,7 +48,7 @@ const ProjectCard = (props: Props) => {
         </div>
 
         <div >
-          <p className="text-2xl">{description.en}</p>
+          <p data-aos='fade-in' className="text-2xl">{description.en}</p>
           <a
             className={buttonVariants({
               variant: "outline",

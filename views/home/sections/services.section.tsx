@@ -68,7 +68,7 @@ const ServicesSection = () => {
       <div className="grid grid-cols-3 gap-5 mt-10">
         {/* {isLoading && Array.from({length: 6}).map((_, index) => <Skeleton key={index} className="h-[262px] w-full rounded-md" />)} */}
         {services.map((service: any, index: number) => (
-          <Card className="border-none p-1.5 shadow-none" key={index}>
+          <Card data-aos='fade-up' data-aos-delay={index * 100} data-aos-easing="ease-in" className="border-none p-1.5 shadow-none" key={index}>
             <CardHeader>
               <CardTitle className="sr-only">Card Title</CardTitle>
               <span className="w-20 h-20 rounded-md bg-[#0382A7] flex items-center justify-center ">

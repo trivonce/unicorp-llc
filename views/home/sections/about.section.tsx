@@ -61,7 +61,7 @@ const AboutSection = () => {
 
   return (
     <section id="about" className="container grid grid-cols-2 py-[60px] items-center gap-20">
-      <div className="grid grid-cols-2 gap-10 items-center" ref={imagesRef}>
+      <div  data-aos='fade-in' className="grid grid-cols-2 gap-10 items-center" ref={imagesRef}>
         <div className="flex flex-col items-end gap-10">
           <Image
             unoptimized
@@ -101,8 +101,8 @@ const AboutSection = () => {
       </div>
 
       <div>
-        <h1 className="font-semibold text-2xl"><span className="text-brand mr-1">#</span>About</h1>
-        <p className="text-tp-secondary text-xl mt-5">
+        <h1 data-aos='fade-left' className="font-semibold text-2xl w-fit"><span className="text-brand mr-1">#</span>About</h1>
+        <p data-aos='fade-up' className="text-tp-secondary text-xl mt-5">
           Tech Innovations Inc. is a leading IT company dedicated to providing
           cutting-edge solutions for businesses of all sizes. With a team of
           expert developers and engineers, we specialize in software
@@ -112,7 +112,7 @@ const AboutSection = () => {
           enhance productivity and drive growth.
         </p>
 
-        <Link className="mt-10 inline-block text-xl hover:underline" href="/about">
+        <Link data-aos='fade-up' className="mt-10 inline-block text-xl hover:underline" href="/about">
           More information...
         </Link>
       </div>
