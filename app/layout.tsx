@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import I18nProvider from "@/providers/i18n-provider"
+import I18nProvider from "@/providers/i18n-provider";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/providers/theme-provider";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import TanstackProvider from "@/providers/tanstack-provider";
-import NextTopLoader from 'nextjs-toploader';
+import NextTopLoader from "nextjs-toploader";
 import Aos from "@/lib/aos";
-import 'aos/dist/aos.css'; 
+import "aos/dist/aos.css";
 import Cursor from "@/components/cursor";
 
 const poppins = Poppins({
@@ -21,46 +21,46 @@ export const metadata: Metadata = {
   title: "UNICORP LLC",
   description: "UNICORP LLC - IT Company in Uzbekistan",
   icons: {
-    icon: '/favicon.png',
+    icon: "/favicon.png",
   },
   authors: {
-    name: 'UNICORP LLC',
-    url: 'https://unicorp.uz/',
+    name: "UNICORP LLC",
+    url: "https://unicorp.uz/",
   },
   keywords: [
-    'UNICORP LLC',
-    'IT Company in Uzbekistan',
-    'UNICORP LLC - IT Company in Uzbekistan',
-    'UNICORP LLC - IT Company in Uzbekistan - Software Development Company',
-    'UNICORP LLC - IT Company in Uzbekistan - Software Development Company - Web Development Services',
-    'UNICORP LLC - IT Company in Uzbekistan - Software Development Company - Mobile App Development Services',
-    'UNICORP LLC - IT Company in Uzbekistan - Software Development Company - Blockchain Development Services',
-    'UNICORP LLC - IT Company in Uzbekistan - Software Development Company - Blockchain Development Services - Smart Contract Development',
-    'UNICORP LLC - IT Company in Uzbekistan - Software Development Company - Blockchain Development Services - Smart Contract Development - DApp Development',
-    'UNICORP LLC - IT Company in Uzbekistan - Software Development Company - Blockchain Development Services - Smart Contract Development - DApp Development - NFT Development',
-    'UNICORP LLC - IT Company in Uzbekistan - Software Development Company - Blockchain Development Services - Smart Contract Development - DApp Development - NFT Development - Crypto Development',
+    "UNICORP LLC",
+    "IT Company in Uzbekistan",
+    "UNICORP LLC - IT Company in Uzbekistan",
+    "UNICORP LLC - IT Company in Uzbekistan - Software Development Company",
+    "UNICORP LLC - IT Company in Uzbekistan - Software Development Company - Web Development Services",
+    "UNICORP LLC - IT Company in Uzbekistan - Software Development Company - Mobile App Development Services",
+    "UNICORP LLC - IT Company in Uzbekistan - Software Development Company - Blockchain Development Services",
+    "UNICORP LLC - IT Company in Uzbekistan - Software Development Company - Blockchain Development Services - Smart Contract Development",
+    "UNICORP LLC - IT Company in Uzbekistan - Software Development Company - Blockchain Development Services - Smart Contract Development - DApp Development",
+    "UNICORP LLC - IT Company in Uzbekistan - Software Development Company - Blockchain Development Services - Smart Contract Development - DApp Development - NFT Development",
+    "UNICORP LLC - IT Company in Uzbekistan - Software Development Company - Blockchain Development Services - Smart Contract Development - DApp Development - NFT Development - Crypto Development",
   ],
   openGraph: {
-    title: 'UNICORP LLC - IT Company in Uzbekistan',
-    description: 'UNICORP LLC is a leading IT company in Uzbekistan.',
-    url: 'https://unicorp.uz/',
-    siteName: 'UNICORP LLC',
+    title: "UNICORP LLC - IT Company in Uzbekistan",
+    description: "UNICORP LLC is a leading IT company in Uzbekistan.",
+    url: "https://unicorp.uz/",
+    siteName: "UNICORP LLC",
     images: [
       {
-        url: '/favicon.png',
+        url: "/favicon.png",
         width: 800,
         height: 600,
-        alt: 'UNICORP LLC Logo',
+        alt: "UNICORP LLC Logo",
       },
     ],
-    locale: 'en_US',
-    type: 'website',
+    locale: "en_US",
+    type: "website",
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'UNICORP LLC - IT Company in Uzbekistan',
-    description: 'UNICORP LLC is a leading IT company in Uzbekistan.',
-    images: ['/favicon.png'],
+    card: "summary_large_image",
+    title: "UNICORP LLC - IT Company in Uzbekistan",
+    description: "UNICORP LLC is a leading IT company in Uzbekistan.",
+    images: ["/favicon.png"],
   },
 };
 
@@ -71,27 +71,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${poppins.variable} antialiased min-h-screen`}
-      >
+      <body className={`${poppins.variable} antialiased min-h-screen`}>
         <Cursor />
         <Aos />
         <NextTopLoader color="hsl(var(--brand))" />
         <TanstackProvider>
-        <ThemeProvider
+          <ThemeProvider
             attribute="class"
             defaultTheme="dark"
             enableSystem
             disableTransitionOnChange
           >
             <I18nProvider>
-            <Navbar />
-              <main className="pt-[120px]">
-                {children}
-              </main>
-            <Footer />
+              <Navbar />
+              <main className="pt-[120px]">{children}</main>
+              <Footer />
             </I18nProvider>
-        </ThemeProvider>
+          </ThemeProvider>
         </TanstackProvider>
       </body>
     </html>

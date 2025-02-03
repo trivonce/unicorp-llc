@@ -7,7 +7,8 @@
           "viewAllProjects": "View all projects",
           "ourProjects": "Our Projects",
           "viewMore": "View more",
-          "ourTeam": "Our Team"
+          "ourTeam": "Our Team",
+          "contact": "Contact"
         },
         "navbar": {
           "about": "About us",
@@ -17,7 +18,14 @@
           "startYourProject": "Start your project"
         },
         "footer": {
-
+          "navigation": {
+            "title": "Navigation",
+            "privacyPolicy": "Privacy Policy",
+            "termsAndConditions": "Terms and Conditions",
+            "cookiePolicy": "Cookie Policy",
+            "license": "License"
+          },
+          "location": "Location"
         },
         "home": {
           "hero": {
@@ -60,7 +68,8 @@
           "viewAllProjects": "Barcha mahsulotlarni ko'rish",
           "ourProjects": "Bizning mahsulotlar",
           "viewMore": "Ko'proq ko'rish",
-          "ourTeam": "Bizning jamoa"
+          "ourTeam": "Bizning jamoa",
+          "contact": "Aloqa"
         },
         "navbar": {
           "about": "Biz haqimizda",
@@ -69,6 +78,16 @@
           "contact": "Aloqa",
           "startYourProject": "Bizning xizmatlar"
         },
+        "footer": {
+  "navigation": {
+    "title": "Navigatsiya",
+    "privacyPolicy": "Maxfiylik siyosati",
+    "termsAndConditions": "Foydalanish shartlari",
+    "cookiePolicy": "Cookie siyosati",
+    "license": "Litsenziya"
+  },
+  "location": "Manzil"
+},
         "home": {
           "hero": {
             "title": "UNICORP MCHJ",
@@ -109,7 +128,8 @@
           "viewAllProjects": "Посмотреть все проекты",
           "ourProjects": "Наши проекты",
           "viewMore": "Посмотреть больше",
-          "ourTeam": "Наша команда"
+          "ourTeam": "Наша команда",
+          "contact": "Контакты"
         },
         "navbar": {
           "about": "О нас",
@@ -118,6 +138,16 @@
           "contact": "Контакты",
           "startYourProject": "Начать проект"
         },
+        "footer": {
+  "navigation": {
+    "title": "Навигация",
+    "privacyPolicy": "Политика конфиденциальности",
+    "termsAndConditions": "Условия использования",
+    "cookiePolicy": "Политика в отношении файлов cookie",
+    "license": "Лицензия"
+  },
+  "location": "Местоположение"
+},
         "home": {
           "hero": {
             "title": "ООО «UNICORP»",

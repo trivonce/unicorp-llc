@@ -8,25 +8,26 @@ import {
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card";
+import { useTranslation } from "react-i18next";
 
 const links = [
   {
-    tk: "privacy-policy",
+    tk: "privacyPolicy",
     title: "Private Policy",
     link: "/private-policy",
   },
   {
-    tk: "terms-and-conditions",
+    tk: "termsAndConditions",
     title: "Terms & Conditions",
     link: "/terms-and-conditions",
   },
   {
-    tk: "cookie-policy",
+    tk: "cookiePolicy",
     title: "Cookie Policy",
     link: "/cookie-policy",
   },
   {
-    tk: "licence",
+    tk: "license",
     title: "License",
     link: "/licence",
   },
@@ -34,6 +35,7 @@ const links = [
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const { t } = useTranslation()
 
   return (
     <footer className="py-10 bg-footer text-footer-foreground">
@@ -51,7 +53,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <h1 className="text-2xl font-medium mb-2.5 text-white">Navigation</h1>
+          <h1 className="text-2xl font-medium mb-2.5 text-white">{t('footer.navigation.title')}</h1>
           <div className="flex flex-col gap-2.5">
             {links.map((link) => (
               <Link
@@ -59,26 +61,26 @@ const Footer = () => {
                 href={link.link}
                 key={link.tk}
               >
-                {link.title}
+                {t(`footer.navigation.${link.tk}`)}
               </Link>
             ))}
           </div>
         </div>
 
         <div>
-          <h1 className="text-2xl font-medium mb-2.5 text-white">Contact</h1>
+          <h1 className="text-2xl font-medium mb-2.5 text-white">{t('common.contact')}</h1>
           <div className="flex flex-col gap-2.5">
-            <a className="hover:underline" href="tel:+998999999999">
-              +998 99 999 99 99
+            <a className="hover:underline" href="tel:+998771516633">
+              +998 77 151 66 33
             </a>
-            <a href="mailto:unicorpuz@gmaill.com" className="hover:underline">
-              unicorpuz@gmaill.com
+            <a href="mailto:support@unicorp.uz" className="hover:underline">
+              support@unicorp.uz
             </a>
           </div>
         </div>
 
         <div>
-          <h1 className="text-2xl font-medium mb-2.5 text-white">Location</h1>
+          <h1 className="text-2xl font-medium mb-2.5 text-white">{t('footer.location')}</h1>
           <div className="flex flex-col gap-2.5">
             <HoverCard>
               <HoverCardTrigger
