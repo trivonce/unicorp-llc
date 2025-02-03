@@ -1,0 +1,153 @@
+{
+    "en": {
+      "translation": {
+        "common": {
+          "services": "Services",
+          "viewAllServices": "View all services",
+          "viewAllProjects": "View all projects",
+          "ourProjects": "Our Projects",
+          "viewMore": "View more",
+          "ourTeam": "Our Team"
+        },
+        "navbar": {
+          "about": "About us",
+          "services": "Services",
+          "portfolio": "Portfolio",
+          "contact": "Contact",
+          "startYourProject": "Start your project"
+        },
+        "footer": {
+
+        },
+        "home": {
+          "hero": {
+            "title": "UNICORP LLC",
+            "text": "Unicorp – Connecting the future of your business with the digital world."
+          },
+          "about": {
+            "title": "About", 
+            "text1": "Unicorp LLC is a dynamic technology company specializing in mobile and web development, UI/UX design, and digital innovation. With a team of skilled developers and creative designers, we craft cutting-edge solutions that enhance user experiences and drive business success.",
+            "text2": "At Unicorp LLC, we are committed to transforming ideas into powerful digital products by leveraging the latest technologies and design trends. Whether it's building scalable web applications, intuitive mobile apps, or engaging user interfaces, we ensure every solution is tailored to meet our clients' unique needs.",
+            "text3": "Our mission is to empower businesses with innovative technology, helping them stay ahead in an ever-evolving digital landscape. 🚀",
+            "link": "More information"
+          },
+          "contact": {
+            "title": "Innovating Your Digital Future", 
+            "startYourProject": "Start your project"
+          },
+          "stacks": "Stacks"
+        },
+        "portfolio": {
+          "title": "Portfolio",
+          "text": "Transforming your vision into reality with innovative technology.",
+          "projects": "Projects"
+        },
+        "about": {
+          "title": "About",
+          "text": "Transforming visions into reality through innovative technology",
+          "info": "<div style='margin-bottom: 20px;'><h1><span style='font-weight: bold; color: #008C99;'>Unicorp</span> – Start the Digital Revolution with Us</h1><p style='margin-top: 10px;'><span style='font-weight: bold;'>Unicorp</span> is an IT company dedicated to <span style='font-style: italic;'>innovation</span> and technological excellence. Our primary mission is to automate your business, improve efficiency, and enhance competitiveness in the global market.</p></div><div style='margin-bottom: 20px;'><h2 style='font-weight: bold; font-size: 1.6rem;'>What do we offer?</h2><ul style='margin-top: 10px;'><li>— Automation systems built on modern technology</li><li>— Customized IT solutions and integrations</li><li>— Tailored strategies to meet each client's unique needs</li></ul></div><div style='margin-bottom: 20px;'><h2 style='font-weight: bold; font-size: 1.6rem;'>Why Unicorp?</h2><p style='margin-top: 10px;'>We bring an <span style='font-style: italic;'>innovative approach</span> and <span style='font-style: italic;'>creative thinking</span>, enabling us to successfully execute even the most complex projects. For us, every client is a <span style='font-weight: bold; color: #008C99;'>partner</span>, and every project is a new opportunity. Speed and reliability are our top priorities.</p></div><div style='margin-bottom: 20px;'><h2 style='font-weight: bold; font-size: 1.6rem;'>Ready to build your future with Unicorp?</h2><p style='margin-top: 10px;'>We provide not only technology but also a sustainable growth strategy for your business. Start your digital transformation journey with us and take the path to success!</p></div><div><h2 style='font-weight: bold; font-size: 1.6rem;'>Unicorp – The Digital Power of Business!</h2></div>"
+        },
+        "services":{
+          "title": "Bringing your ideas to life with cutting-edge technology."
+        }
+      }
+    },
+    "uz": {
+      "translation": {
+        "common": {
+          "services": "Xizmatlar",
+          "viewAllServices": "Barcha xizmatlarni ko'rish",
+          "viewAllProjects": "Barcha mahsulotlarni ko'rish",
+          "ourProjects": "Bizning mahsulotlar",
+          "viewMore": "Ko'proq ko'rish",
+          "ourTeam": "Bizning jamoa"
+        },
+        "navbar": {
+          "about": "Biz haqimizda",
+          "services": "Xizmatlar",
+          "portfolio": "Portfolio",
+          "contact": "Aloqa",
+          "startYourProject": "Bizning xizmatlar"
+        },
+        "home": {
+          "hero": {
+            "title": "UNICORP MCHJ",
+            "text": "Unicorp – Biznesingiz kelajagini raqamli dunyo bilan bog‘laymiz."
+          },
+          "about": {
+            "title": "Biz haqimizda", 
+            "text1": "Unicorp LLC — bu mobil va veb dasturlarni ishlab chiqish, UI/UX dizayn va raqamli innovatsiyalar bo‘yicha ixtisoslashgan zamonaviy texnologik kompaniya. Tajribali dasturchilar va ijodkor dizaynerlardan iborat jamoamiz foydalanuvchi tajribasini yaxshilaydigan va biznes muvaffaqiyatiga hissa qo‘shadigan ilg‘or yechimlarni ishlab chiqadi.",
+            "text2": "Unicorp LLC da biz g‘oyalarni kuchli raqamli mahsulotlarga aylantirishga sodiqmiz. Ilg‘or texnologiyalar va dizayn tendensiyalaridan foydalangan holda, mijozlarimizning o‘ziga xos ehtiyojlariga mos keladigan masshtablanuvchi veb ilovalar, intuitiv mobil dasturlar va jozibali interfeyslar yaratamiz.",
+            "text3": "Bizning maqsadimiz — bizneslarni innovatsion texnologiyalar bilan quvvatlash, ularga doimiy o‘zgarib borayotgan raqamli dunyoda yetakchilik qilishga yordam berishdir. 🚀",
+            "link": "Ko'proq ma'lumot"
+          },
+          "contact": {
+            "title": "Raqamlashtirishga tayyormisiz?", 
+            "startYourProject": "Hoziroq bog'laning"
+          }
+        },
+        "portfolio": {
+          "title": "Portfolio",
+          "text": "Innovatsion texnologiyalar bilan xayolotni reallikka aylantiring!",
+          "projects": "Mahsulotlar"
+        },
+        "about": {
+          "title": "Biz haqimizda",
+          "text": "Innovatsion texnologiyalar bilan xayolotni reallikka aylantiring!",
+          "info": "<div style='margin-bottom: 20px;'><h1><span style='font-weight: bold; color: #008C99;'>Unicorp</span> – Raqamli inqilobni biz bilan boshlang</h1><p style='margin-top: 10px;'><span style='font-weight: bold;'>Unicorp</span> – bu innovatsiya va texnologik mukammallikka bag'ishlangan IT kompaniyasidir. Bizning asosiy maqsadimiz biznesingizni avtomatlashtirish, samaradorlikni oshirish va global bozorga raqobatbardoshlikni kuchaytirishdir.</p></div><div style='margin-bottom: 20px;'><h2 style='font-weight: bold; font-size: 1.6rem;'>Nima taklif qilamiz?</h2><ul style='margin-top: 10px;'><li>— Zamonaviy texnologiyalarga asoslangan avtomatlashtirish tizimlari</li><li>— Maxsus IT yechimlari va integratsiyalar</li><li>— Har bir mijozning o'ziga xos ehtiyojlariga moslashtirilgan strategiyalar</li></ul></div><div style='margin-bottom: 20px;'><h2 style='font-weight: bold; font-size: 1.6rem;'>Nima uchun Unicorp?</h2><p style='margin-top: 10px;'>Biz innovatsion yondashuv va ijodiy fikrlashni taqdim etamiz, bu bizga eng murakkab loyihalarni muvaffaqiyatli bajarishga imkon beradi. Biz uchun har bir mijoz – hamkor, har bir loyiha esa yangi imkoniyatdir. Tezlik va ishonchlilik bizning eng muhim ustuvorligimizdir.</p></div><div style='margin-bottom: 20px;'><h2 style='font-weight: bold; font-size: 1.6rem;'>Unicorp bilan kelajagingizni qurishga tayyormisiz?</h2><p style='margin-top: 10px;'>Biz nafaqat texnologiyalarni, balki biznesingiz uchun barqaror o'sish strategiyasini ham taqdim etamiz. Biz bilan raqamli transformatsiya sayohatingizni boshlang va muvaffaqiyat yo'liga qadam qo'ying!</p></div><div><h2 style='font-weight: bold; font-size: 1.6rem;'>Unicorp – Biznesning raqamli qudrati!</h2></div>"
+        },
+        "services":{
+          "title": "Yangi texnologiyalar bilan g'oyalaringizni hayotga tadbiq etamiz."
+        }
+      }
+    },
+    "ru": {
+      "translation": {
+        "common": {
+          "services": "Услуги",
+          "viewAllServices": "Посмотреть все услуги",
+          "viewAllProjects": "Посмотреть все проекты",
+          "ourProjects": "Наши проекты",
+          "viewMore": "Посмотреть больше",
+          "ourTeam": "Наша команда"
+        },
+        "navbar": {
+          "about": "О нас",
+          "services": "Услуги",
+          "portfolio": "Портфолио",
+          "contact": "Контакты",
+          "startYourProject": "Начать проект"
+        },
+        "home": {
+          "hero": {
+            "title": "ООО «UNICORP»",
+            "text": "Unicorp – Связываем будущее вашего бизнеса с цифровым миром."
+          },
+          "about": {
+            "title": "О нас", 
+            "text1": "Unicorp LLC — это современная технологическая компания, специализирующаяся на разработке мобильных и веб-приложений, UI/UX дизайне и цифровых инновациях. Наша команда опытных разработчиков и креативных дизайнеров создает передовые решения, улучшающие пользовательский опыт и способствующие успеху бизнеса.",
+            "text2": "В Unicorp LLC мы стремимся превращать идеи в мощные цифровые продукты. Используя новейшие технологии и тенденции дизайна, мы разрабатываем масштабируемые веб-приложения, интуитивно понятные мобильные приложения и привлекательные пользовательские интерфейсы, соответствующие уникальным требованиям наших клиентов.",
+            "text3": "Наша миссия — помогать бизнесу с помощью инновационных технологий, обеспечивая их лидерство в стремительно развивающемся цифровом мире. 🚀",
+            "link": "Подробнее"
+          },
+          "contact": {
+            "title": "Ваш бизнес готов к цифровому будущему?", 
+            "startYourProject": "Начать проект"
+          }
+        },
+        "portfolio": {
+          "title": "Портфолио",
+          "text": "Превращаем вашу идею в реальность с помощью инновационных технологий!",
+          "projects": "Проекты"
+        },
+        "about": {
+          "title": "О нас",
+          "text": "Превращаем вашу идею в реальность с помощью инновационных технологий!",
+          "info": "<div style='margin-bottom: 20px;'><h1><span style='font-weight: bold; color: #008C99;'>Unicorp</span> – Начните цифровую революцию с нами</h1><p style='margin-top: 10px;'><span style='font-weight: bold;'>Unicorp</span> – это IT-компания, ориентированная на инновации и технологическое совершенство. Наша основная миссия – автоматизировать ваш бизнес, повысить эффективность и укрепить конкурентоспособность на мировом рынке.</p></div><div style='margin-bottom: 20px;'><h2 style='font-weight: bold; font-size: 1.6rem;'>Что мы предлагаем?</h2><ul style='margin-top: 10px;'><li>— Автоматизированные системы, основанные на современных технологиях</li><li>— Индивидуальные IT-решения и интеграции</li><li>— Разработанные стратегии, соответствующие уникальным потребностям каждого клиента</li></ul></div><div style='margin-bottom: 20px;'><h2 style='font-weight: bold; font-size: 1.6rem;'>Почему Unicorp?</h2><p style='margin-top: 10px;'>Мы предлагаем инновационный подход и творческое мышление, что позволяет нам успешно реализовывать даже самые сложные проекты. Для нас каждый клиент — партнер, а каждый проект — это новая возможность. Скорость и надежность — наши главные приоритеты.</p></div><div style='margin-bottom: 20px;'><h2 style='font-weight: bold; font-size: 1.6rem;'>Готовы построить будущее с Unicorp?</h2><p style='margin-top: 10px;'>Мы предоставляем не только технологии, но и стратегию устойчивого роста для вашего бизнеса. Начните свой путь цифровой трансформации с нами и пройдите путь к успеху!</p></div><div><h2 style='font-weight: bold; font-size: 1.6rem;'>Unicorp – Цифровая сила бизнеса!</h2></div>"
+        },
+        "services":{
+          "title": "Воплощаем ваши идеи в жизнь с передовыми технологиями."
+        }
+      }
+    }
+}

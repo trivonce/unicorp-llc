@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next"
 import TeamCard from "../components/team-card"
 
 // images
@@ -50,9 +51,11 @@ const TEAM = [
 ]
 
 const TeamSection = () => {
+    const { t } = useTranslation()
+
     return <section className="container py-[60px]">
         <h1 className="text-2xl font-semibold">
-        <span className="text-brand mr-1">#</span>Our Team
+        <span className="text-brand mr-1">#</span> {t('common.ourTeam')}
       </h1>
 
       <div className="grid 2xl:grid-cols-4 grid-cols-3 gap-5 mt-[60px]">

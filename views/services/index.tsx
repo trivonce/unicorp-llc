@@ -1,4 +1,4 @@
-import Image from "next/image";
+'use client'
 
 import {
   Card,
@@ -10,9 +10,11 @@ import Icon from "@/components/icon";
 import { useServices } from "@/features/services/hooks";
 import { Skeleton } from "@/components/ui/skeleton";
 import services from '@/db/services.json'
+import { useTranslation } from "react-i18next";
 
 const ServicesView = () => {
 //   const { data, isLoading }: any = useServices();
+const { t, i18n: { language } } = useTranslation()
 
   return (
     <main>
@@ -20,7 +22,7 @@ const ServicesView = () => {
         <div className="flex justify-center">
           <span className="mx-auto inline-block">
             <h1 className="text-2xl font-semibold text-tp text-center uppercase">
-              Services
+              {t('common.services')}
             </h1>
             <img
               className="animate-bounce mx-auto mt-8"
@@ -28,7 +30,7 @@ const ServicesView = () => {
               alt="arrow"
             />
             <h1 className="text-center font-semibold text-fs60">
-              Bringing your ideas to life with cutting-edge technology.
+              {t('services.title')}
             </h1>
           </span>
         </div>
@@ -36,7 +38,7 @@ const ServicesView = () => {
 
       <section className="container py-[60px]">
         <h1 className="text-2xl font-semibold">
-          <span className="text-brand mr-1">#</span>Services
+          <span className="text-brand mr-1">#</span> {t('common.services')}
         </h1>
 
         <div className="grid grid-cols-3 gap-5 mt-10">
@@ -58,14 +60,14 @@ const ServicesView = () => {
                     <Icon color="white" size={60} icon={`shape_${index + 1}`} />
                   </span>
                   <h1 className="text-[28px] font-medium">
-                    {service.title.en}
+                    {service.title[language]}
                   </h1>
                 </div>
               </CardHeader>
 
               <CardContent>
                 <p className="text-xl text-tp-white-500 font-light font-mono">
-                  {service.description.en}
+                  {service.description[language]}
                 </p>
               </CardContent>
             </Card>

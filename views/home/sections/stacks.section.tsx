@@ -1,4 +1,5 @@
 import Icon from "@/components/icon";
+import { useTranslation } from "react-i18next";
 
 const STACKS = [
     {
@@ -64,10 +65,12 @@ const STACKS = [
 ]
 
 const StacksSection = () => {
+  const { t } = useTranslation()
+
   return (
     <section id="stacks" className="container py-[60px]">
       <h1 className="text-2xl font-semibold">
-        <span className="text-brand mr-1">#</span> Our stacks
+        <span className="text-brand mr-1">#</span> {t('home.stacks')}
       </h1>
 
       <div className="grid grid-cols-5 items-center gap-5 mt-[60px]">

@@ -5,6 +5,7 @@ import { useServices } from "@/features/services/hooks";
 import Link from "next/link";
 import { Skeleton } from "@/components/ui/skeleton"
 import services from '@/db/services.json'
+import { useTranslation } from "react-i18next";
 
 // const services: {
 //   title: string;
@@ -58,11 +59,12 @@ import services from '@/db/services.json'
 
 const ServicesSection = () => {
   // const { data, isLoading }: any = useServices();
+  const { t, i18n: { language } } = useTranslation()
 
   return (
     <section id="services" className="container py-[60px]">
       <h1 className="text-2xl font-semibold">
-        <span className="text-brand mr-1">#</span>Services
+        <span className="text-brand mr-1">#</span>{t('common.services')}
       </h1>
 
       <div className="grid grid-cols-3 gap-5 mt-10">
@@ -77,10 +79,10 @@ const ServicesSection = () => {
             </CardHeader>
             <CardContent>
               <h1 className="text-xl font-medium line-clamp-1">
-                {service.title.en}
+                {service.title[language]}
               </h1>
               <p className="text-sm font-light mt-1 h-[60px] line-clamp-3">
-                {service.description.en}
+                {service.description[language]}
               </p>
             </CardContent>
           </Card>
@@ -92,7 +94,7 @@ const ServicesSection = () => {
           className={buttonVariants({ variant: "outline" })}
           href={"/services"}
         >
-          View All Services
+          {t('common.viewAllServices')}
         </Link>
       </div>
     </section>

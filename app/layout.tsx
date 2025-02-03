@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import I18nProvider from "@/providers/i18n-provider"
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/providers/theme-provider";
@@ -83,11 +84,13 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
+            <I18nProvider>
             <Navbar />
               <main className="pt-[120px]">
                 {children}
               </main>
             <Footer />
+            </I18nProvider>
         </ThemeProvider>
         </TanstackProvider>
       </body>

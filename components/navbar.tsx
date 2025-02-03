@@ -24,8 +24,10 @@ import { usePathname, useRouter } from "next/navigation";
 // db
 import services from '@/db/services.json'
 import portfolio from '@/db/portfolio.json'
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+  const { t, i18n: { language } } = useTranslation()
   const router = useRouter()
   const { theme, resolvedTheme, mounted } = useMountedTheme();
   const pathname = usePathname()
@@ -50,12 +52,12 @@ const Navbar = () => {
             <NavigationMenuItem>
               <Link href="/about" legacyBehavior passHref>
                 <NavigationMenuLink active={pathname === "/about"} className={navigationMenuTriggerStyle()}>
-                  Abous us
+                  {t("navbar.about")}
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuTrigger>Services</NavigationMenuTrigger>
+              <NavigationMenuTrigger>{t('navbar.services')}</NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                   <li className="row-span-3">
@@ -67,10 +69,10 @@ const Navbar = () => {
                       >
                         <Image unoptimized className="w-full mix-h-[200px] h-full rounded-md object-cover" src={service?.image} width={0} height={0} alt="web development" />
                         <div className="mb-2 mt-4 text-lg font-medium leading-5">
-                          {service.title?.en}
+                          {service.title[language]}
                         </div>
                         <p className="text-sm leading-tight text-muted-foreground">
-                          {service.short_description?.en}
+                          {service.short_description[language]}
                         </p>
                       </a>
                     </NavigationMenuLink>
@@ -82,16 +84,16 @@ const Navbar = () => {
                       <ListItem
                         key={index}
                         href={'/services'}
-                        title={service.title.en}
+                        title={service.title[language]}
                       >
-                        {service.description.en}
+                        {service.description[language]}
                       </ListItem>
                     ))}
                 </ul>
               </NavigationMenuContent>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuTrigger>Portfolio</NavigationMenuTrigger>
+              <NavigationMenuTrigger>{t('navbar.portfolio')}</NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
                   {portfolio.map((component) => (
@@ -100,7 +102,7 @@ const Navbar = () => {
                       title={component.title}
                       href={'/portfolio'}
                     >
-                      {component.description.en}
+                      {component.description[language as 'en' | 'uz' | 'ru']}
                     </ListItem>
                   ))}
                 </ul>
@@ -109,7 +111,7 @@ const Navbar = () => {
             <NavigationMenuItem>
               <Link href="/contact" legacyBehavior passHref>
                 <NavigationMenuLink active={pathname === "/contact"} className={navigationMenuTriggerStyle()}>
-                  Contact us
+                  {t("navbar.contact")}
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
@@ -121,7 +123,7 @@ const Navbar = () => {
           <Separator className="h-6" orientation="vertical" />
           <LanguageToggle />
           <Separator className="h-6" orientation="vertical" />
-          <Button onClick={() => router.push("/contact")}>Start your project</Button>
+          <Button onClick={() => router.push("/contact")}>{t('navbar.startYourProject')}</Button>
         </div>
       </div>
     </div>

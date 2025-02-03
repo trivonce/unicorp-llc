@@ -1,22 +1,20 @@
 import Icon from "@/components/icon";
 import { buttonVariants } from "@/components/ui/button";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 type Props = {
     index: number;
   image: string;
   title: string;
-  description: {
-    en: string;
-    uz: string;
-    ru: string
-  };
+  description: any;
   link: string;
   tags: any;
 };
 
 const ProjectCard = (props: Props) => {
   const { image, title, description, tags, index, link } = props;
+  const { t, i18n: { language }} = useTranslation()
   return (
     <div className="grid grid-cols-2 gap-[50px]">
       <div data-aos={index % 2 === 0 ? "fade-right" : "fade-left"} className="overflow-hidden rounded-md" style={{ order: index % 2 === 0 ? 1 : 2 }}>
@@ -41,14 +39,14 @@ const ProjectCard = (props: Props) => {
                 key={index}
                 className="py-2.5 border rounded-[100px] px-[30px] border-tp-tertiary text-tp-tertiary"
               >
-                {tag.en}
+                {tag[language]}
               </span>
             ))}
           </div>
         </div>
 
         <div >
-          <p data-aos='fade-in' className="text-2xl">{description.en}</p>
+          <p data-aos='fade-in' className="text-2xl">{description[language]}</p>
           <a
             className={buttonVariants({
               variant: "outline",
@@ -57,7 +55,7 @@ const ProjectCard = (props: Props) => {
             target="_blank"
             href={link}
           >
-            View more{" "}
+            {t('common.viewMore')}
             <Icon
               className="!bg-tp-link-more group-hover:!bg-brand group-hover:rotate-45 duration-200 group-hover:translate-x-2"
               icon="arrow-top-right"
