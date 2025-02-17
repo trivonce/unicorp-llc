@@ -2,16 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+/* * {
   cursor: none !important;
-}
-
-
-
-.link-cursor {
-
-}
-
+} */
 
 body {
   font-family: Poppins, sans-serif;
