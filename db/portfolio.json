@@ -64,5 +64,28 @@
         ],
         "image": "https://placehold.co/600x400",
         "link": "https://crm.2003.uz/"
+    },
+    {
+        "id": "nuovohotel",
+        "title": "Nuovo Hotel",
+        "short_description": {
+            "en": "",
+            "uz": "",
+            "ru": ""
+        },
+        "description": {
+            "en": "",
+            "uz": "",
+            "ru": ""
+        },
+        "tags": [
+            {
+                "en": "lorem",
+                "uz": "lorem",
+                "ru": "lorem"
+            }
+        ],
+        "image": "https://placehold.co/600x400",
+        "link": "https://nuovohotel.uz/"
     }
 ]
