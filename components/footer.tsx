@@ -88,7 +88,7 @@ const Footer = () => {
                 className="hover:underline hover:bg-background duration-200 box-border px-2 rounded-md -ml-2"
                 href="https://maps.google.com/?q=Uzbekistan"
               >
-                Tashkent. Mirzo Ulugbek. Qorabog 12
+                Tashkent. Mirzo Ulugbek. Qorabuloq 24
               </HoverCardTrigger>
               <HoverCardContent className="p-1" side="top">
                 <iframe
