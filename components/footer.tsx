@@ -35,7 +35,7 @@ const links = [
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  const { t } = useTranslation()
+  const { t } = useTranslation();
 
   return (
     <footer className="py-10 bg-footer text-footer-foreground">
@@ -53,7 +53,9 @@ const Footer = () => {
         </div>
 
         <div>
-          <h1 className="text-2xl font-medium mb-2.5 text-white">{t('footer.navigation.title')}</h1>
+          <h1 className="text-2xl font-medium mb-2.5 text-white">
+            {t("footer.navigation.title")}
+          </h1>
           <div className="flex flex-col gap-2.5">
             {links.map((link) => (
               <Link
@@ -68,7 +70,9 @@ const Footer = () => {
         </div>
 
         <div>
-          <h1 className="text-2xl font-medium mb-2.5 text-white">{t('common.contact')}</h1>
+          <h1 className="text-2xl font-medium mb-2.5 text-white">
+            {t("common.contact")}
+          </h1>
           <div className="flex flex-col gap-2.5">
             <a className="hover:underline" href="tel:+998771516633">
               +998 77 151 66 33
@@ -80,20 +84,22 @@ const Footer = () => {
         </div>
 
         <div>
-          <h1 className="text-2xl font-medium mb-2.5 text-white">{t('footer.location')}</h1>
+          <h1 className="text-2xl font-medium mb-2.5 text-white">
+            {t("footer.location")}
+          </h1>
           <div className="flex flex-col gap-2.5">
             <HoverCard>
               <HoverCardTrigger
                 target="blank"
                 className="hover:underline hover:bg-background duration-200 box-border px-2 rounded-md -ml-2"
-                href="https://maps.google.com/?q=Uzbekistan"
+                href="https://yandex.uz/maps/-/CHusNZii"
               >
                 Tashkent. Mirzo Ulugbek. Qorabuloq 24
               </HoverCardTrigger>
               <HoverCardContent className="p-1" side="top">
                 <iframe
                   className="map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.249242791448!2d69.3065537768514!3d41.32519327130801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef554e0e30ac5%3A0x63dea647b9d813be!2sNuovo%20Boutique%20Hotel!5e0!3m2!1suz!2s&output=embed&z=15&disable_default_ui=true"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d286.03610957368716!2d69.30911394345924!3d41.32516498050612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef4c24e40bf9d%3A0x4bcace3d85526e7f!2sKorabulok%20Ko&#39;chasi%2024%2C%20%D0%A2%D0%BEshkent%2C%20Toshkent%2C%20O%CA%BBzbekiston!5e0!3m2!1suz!2s!4v1740573960799!5m2!1suz!2s"
                   width="100%"
                   height="300"
                   loading="lazy"
