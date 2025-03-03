@@ -69,23 +69,99 @@
         "id": "nuovohotel",
         "title": "Nuovo Boutique Hotel",
         "short_description": {
-            "en": "",
-            "uz": "",
-            "ru": ""
+            "en": "Nuvov Hotel – The Perfect Blend of Comfort and Luxury ",
+            "uz": "Nuvov Hotel – Qulaylik va Hashamat Uyg‘unligi  ",
+            "ru": "Nuvov Hotel – Идеальное сочетание комфорта и роскоши  "
         },
         "description": {
-            "en": "",
-            "uz": "",
-            "ru": ""
+            "en": "Nuvov Hotel is a modern hotel offering elegant design, top-tier service, and unforgettable comfort. We provide our guests with a cozy atmosphere, modern amenities, and exceptional hospitality to create lasting impressions.  ",
+            "uz": "Nuvov Hotel – это современный отель с элегантным дизайном, высоким уровнем сервиса и незабываемым комфортом. Мы предлагаем гостям уютную атмосферу, современные удобства и первоклассное обслуживание, создавая яркие впечатления.",
+            "ru": "Nuvov Hotel – это современный отель с элегантным дизайном, высоким уровнем сервиса и незабываемым комфортом. Мы предлагаем гостям уютную атмосферу, современные удобства и первоклассное обслуживание, создавая яркие впечатления."
         },
         "tags": [
             {
-                "en": "lorem",
-                "uz": "lorem",
-                "ru": "lorem"
+                "en": "Web Application",
+                "uz": "Veb Ilova",
+                "ru": "Веб-Приложение"
+            },
+            {
+                "en": "Business",
+                "uz": "Biznes",
+                "ru": "Бизнес"
+            },
+            {
+                "en": "Hotel",
+                "uz": "Mehmonxona",
+                "ru": "Отель"
             }
         ],
         "image": "https://placehold.co/600x400",
         "link": "https://nuovohotel.uz/"
+    },
+    {
+        "id": "hsat",
+        "title": "Toshkent Shahar Statistika Boshqarmasi",
+        "short_description": {
+            "en": "Tashkent City Statistics Department – Reliable Data and Analysis",
+            "uz": "Toshkent Shahar Statistika Boshqarmasi – Ishonchli Ma'lumot va Tahlil",
+            "ru": "Ташкентское городское управление статистики – Надежные данные и анализ"
+        },
+        "description": {
+            "en": "Tashkent City Statistics Department provides accurate and up-to-date statistical data to support informed decision-making. Our services include economic analysis, demographic research, and comprehensive statistical reports.",
+            "uz": "Toshkent Shahar Statistika Boshqarmasi aniq va dolzarb statistik ma'lumotlarni taqdim etib, ongli qarorlar qabul qilishga yordam beradi. Xizmatlarimiz iqtisodiy tahlil, demografik tadqiqotlar va keng qamrovli statistik hisobotlarni o'z ichiga oladi.",
+            "ru": "Ташкентское городское управление статистики предоставляет точные и актуальные статистические данные для поддержки информированного принятия решений. Наши услуги включают экономический анализ, демографические исследования и всесторонние статистические отчеты."
+        },
+        "tags": [
+            {
+                "en": "Web Application",
+                "uz": "Veb Ilova",
+                "ru": "Веб-Приложение"
+            },
+            {
+                "en": "ERP",
+                "uz": "ERP",
+                "ru": "ERP"
+            },
+            {
+                "en": "Government",
+                "uz": "Vazirlik",
+                "ru": "Власть"
+            }
+        ],
+        "image": "https://placehold.co/600x400",
+        "link": "https://hsat.uz/"
+    },
+    {
+        "id": "hsat",
+        "title": "Toshkent Shahar Statistika Boshqarmasi",
+        "short_description": {
+            "en": "Tashkent City Statistics Department – Reliable Data and Analysis",
+            "uz": "Toshkent Shahar Statistika Boshqarmasi – Ishonchli Ma'lumot va Tahlil",
+            "ru": "Ташкентское городское управление статистики – Надежные данные и анализ"
+        },
+        "description": {
+            "en": "Tashkent City Statistics Department provides accurate and up-to-date statistical data to support informed decision-making. Our services include economic analysis, demographic research, and comprehensive statistical reports.",
+            "uz": "Toshkent Shahar Statistika Boshqarmasi aniq va dolzarb statistik ma'lumotlarni taqdim etib, ongli qarorlar qabul qilishga yordam beradi. Xizmatlarimiz iqtisodiy tahlil, demografik tadqiqotlar va keng qamrovli statistik hisobotlarni o'z ichiga oladi.",
+            "ru": "Ташкентское городское управление статистики предоставляет точные и актуальные статистические данные для поддержки информированного принятия решений. Наши услуги включают экономический анализ, демографические исследования и всесторонние статистические отчеты."
+        },
+        "tags": [
+            {
+                "en": "Web Application",
+                "uz": "Veb Ilova",
+                "ru": "Веб-Приложение"
+            },
+            {
+                "en": "ERP",
+                "uz": "ERP",
+                "ru": "ERP"
+            },
+            {
+                "en": "Government",
+                "uz": "Vazirlik",
+                "ru": "Власть"
+            }
+        ],
+        "image": "https://placehold.co/600x400",
+        "link": "https://hsat.uz/"
     }
 ]
