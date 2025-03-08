@@ -23,6 +23,7 @@ const ProjectCard = (props: Props) => {
           alt={title + " image"}
           width={0}
           height={0}
+          unoptimized
           className="w-full h-[800px] object-cover rounded-md hover:scale-110 duration-200"
         />
       </div>
