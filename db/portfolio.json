@@ -2,16 +2,16 @@
     {
         "id": "mycareapp",
         "title": "My Care App",
-        "short_description": {
-            "en": "A mobile app for health and wellness management.",
-            "uz": "Sog'liq va farovonlikni boshqarish uchun mobil ilova.",
-            "ru": "Мобильное приложение для управления здоровьем и благополучием."
-        },
-        "description": {
-            "en": "My Care App is a comprehensive mobile application designed to empower users to take control of their health and wellness. It offers features such as personalized health tracking, medication reminders, fitness plans, and access to professional medical advice. Whether you're managing a chronic condition, tracking your fitness goals, or simply staying informed about your health, My Care App provides the tools and resources you need to live a healthier, more balanced life.",
-            "uz": "My Care App - bu foydalanuvchilarga sog'liq va farovonlikni boshqarish imkoniyatini beruvchi keng qamrovli mobil ilova. U shaxsiylashtirilgan sog'liqni kuzatish, dori-darmon eslatmalari, fitnes rejalari va professional tibbiy maslahatlarga kirish kabi funksiyalarni taklif etadi. Surunkali kasallikni boshqarmoqchi bo'lganingizda, fitnes maqsadlaringizni kuzatmoqchi bo'lganingizda yoki shunchaki sog'liq haqida ma'lumotli bo'lishni istasangiz, My Care App sizga sog'lom va muvozanatli hayot kechirish uchun kerakli vositalar va resurslarni taqdim etadi.",
-            "ru": "My Care App — это комплексное мобильное приложение, созданное для того, чтобы помочь пользователям взять под контроль свое здоровье и благополучие. Оно предлагает такие функции, как персонализированный мониторинг здоровья, напоминания о приеме лекарств, планы тренировок и доступ к профессиональным медицинским консультациям. Независимо от того, управляете ли вы хроническим заболеванием, отслеживаете свои фитнес-цели или просто хотите быть в курсе своего здоровья, My Care App предоставляет инструменты и ресурсы, необходимые для более здоровой и сбалансированной жизни."
-        },
+  "short_description": {
+    "uz": "Tibbiy xizmatlarga oson kirish imkonini beruvchi mobil ilova.",
+    "ru": "Мобильное приложение для удобного доступа к медицинским услугам.",
+    "en": "A mobile app for easy access to medical services."
+  },
+  "description": {
+    "uz": "Sog'liqni saqlash sohasida xizmat ko'rsatuvchi mobil ilova bo'lib, foydalanuvchilarga turli tibbiy xizmatlardan foydalanish imkonini beradi. MyCareApp.uz, zamonaviy interfeys va qulay navigatsiya orqali sog'liqni saqlash xizmatlariga kirishni soddalashtiradi. Ilova foydalanuvchilar uchun barcha kerakli tibbiy xizmatlarni bir joyda taqdim etib, sog'liqni boshqarishni yanada osonlashtiradi.",
+    "ru": "Мобильное приложение в сфере здравоохранения, предоставляющее пользователям доступ к различным медицинским услугам. MyCareApp.uz упрощает доступ к медицинским сервисам благодаря современному интерфейсу и удобной навигации. Приложение объединяет все необходимые медицинские услуги в одном месте, облегчая управление здоровьем.",
+    "en": "A mobile application in the healthcare sector that provides users with access to various medical services. MyCareApp.uz simplifies access to healthcare services through a modern interface and easy navigation. The app brings all essential medical services together in one place, making health management more convenient."
+  },
         "tags": [
             {
                 "en": "Mobile App",
