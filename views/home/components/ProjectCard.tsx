@@ -18,12 +18,14 @@ const ProjectCard = (props: Props) => {
   return (
     <div className="grid grid-cols-2 gap-[50px]">
       <div data-aos={index % 2 === 0 ? "fade-right" : "fade-left"} className="overflow-hidden rounded-md" style={{ order: index % 2 === 0 ? 1 : 2 }}>
+        <img className="absolute top-0 left-0 w-full h-full -z-[1] blur-xl" src={image} alt="placeholder_image" />
         <Image
           src={image}
           alt={title + " image"}
           width={0}
           height={0}
-          className="w-full h-[800px] object-cover rounded-md hover:scale-110 duration-200"
+          unoptimized
+          className="w-full h-[700px] object-contain rounded-md hover:scale-110 duration-200"
         />
       </div>
 

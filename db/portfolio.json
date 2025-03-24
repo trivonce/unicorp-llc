@@ -1,167 +1,218 @@
 [
-    {
-        "id": "mycareapp",
-        "title": "My Care App",
-        "short_description": {
-            "en": "A mobile app for health and wellness management.",
-            "uz": "Sog'liq va farovonlikni boshqarish uchun mobil ilova.",
-            "ru": "Мобильное приложение для управления здоровьем и благополучием."
-        },
-        "description": {
-            "en": "My Care App is a comprehensive mobile application designed to empower users to take control of their health and wellness. It offers features such as personalized health tracking, medication reminders, fitness plans, and access to professional medical advice. Whether you're managing a chronic condition, tracking your fitness goals, or simply staying informed about your health, My Care App provides the tools and resources you need to live a healthier, more balanced life.",
-            "uz": "My Care App - bu foydalanuvchilarga sog'liq va farovonlikni boshqarish imkoniyatini beruvchi keng qamrovli mobil ilova. U shaxsiylashtirilgan sog'liqni kuzatish, dori-darmon eslatmalari, fitnes rejalari va professional tibbiy maslahatlarga kirish kabi funksiyalarni taklif etadi. Surunkali kasallikni boshqarmoqchi bo'lganingizda, fitnes maqsadlaringizni kuzatmoqchi bo'lganingizda yoki shunchaki sog'liq haqida ma'lumotli bo'lishni istasangiz, My Care App sizga sog'lom va muvozanatli hayot kechirish uchun kerakli vositalar va resurslarni taqdim etadi.",
-            "ru": "My Care App — это комплексное мобильное приложение, созданное для того, чтобы помочь пользователям взять под контроль свое здоровье и благополучие. Оно предлагает такие функции, как персонализированный мониторинг здоровья, напоминания о приеме лекарств, планы тренировок и доступ к профессиональным медицинским консультациям. Независимо от того, управляете ли вы хроническим заболеванием, отслеживаете свои фитнес-цели или просто хотите быть в курсе своего здоровья, My Care App предоставляет инструменты и ресурсы, необходимые для более здоровой и сбалансированной жизни."
-        },
-        "tags": [
-            {
-                "en": "Mobile App",
-                "uz": "Mobil Ilova",
-                "ru": "Мобильное Приложение"
-            },
-            {
-                "en": "Health Care",
-                "uz": "Sog'liqni Saqlash",
-                "ru": "Здравоохранение"
-            },
-            {
-                "en": "Wellness",
-                "uz": "Farovonlik",
-                "ru": "Благополучие"
-            }
-        ],
-        "image": "https://placehold.co/600x400",
-        "link": "https://mycareapp.uz"
+  {
+    "id": "mycareapp",
+    "title": "My Care App",
+    "short_description": {
+      "uz": "Tibbiy xizmatlarga oson kirish imkonini beruvchi mobil ilova.",
+      "ru": "Мобильное приложение для удобного доступа к медицинским услугам.",
+      "en": "A mobile app for easy access to medical services."
     },
-    {
-        "id": "erp",
-        "title": "ERP System for Manufacturing",
-        "short_description": {
-            "en": "A web-based ERP system for manufacturing industries.",
-            "uz": "Ishlab chiqarish sanoati uchun veb-asosidagi ERP tizimi.",
-            "ru": "Веб-решение ERP для производственных отраслей."
-        },
-        "description": {
-            "en": "This ERP (Enterprise Resource Planning) system is a powerful web-based solution tailored specifically for manufacturing industries. It streamlines operations by integrating key business processes such as inventory management, production planning, supply chain management, and financial tracking. With real-time data analytics and reporting, this ERP system helps manufacturers optimize efficiency, reduce costs, and improve decision-making, ensuring seamless operations and sustainable growth.",
-            "uz": "Ushbu ERP (Enterprise Resource Planning) tizimi ishlab chiqarish sanoati uchun maxsus yaratilgan kuchli veb-asosidagi yechimdir. U inventarizatsiyani boshqarish, ishlab chiqarishni rejalashtirish, ta'minot zanjirini boshqarish va moliyaviy hisobot kabi asosiy biznes jarayonlarini birlashtirib, operatsiyalarni soddalashtiradi. Real vaqtda ma'lumotlar tahlili va hisobotlari bilan ushbu ERP tizimi ishlab chiqaruvchilarga samaradorlikni oshirish, xarajatlarni kamaytirish va qarorlar qabul qilishni yaxshilashga yordam beradi, bu esa uzluksiz operatsiyalar va barqaror o'sishni ta'minlaydi.",
-            "ru": "Эта ERP (система планирования ресурсов предприятия) — это мощное веб-решение, разработанное специально для производственных отраслей. Она упрощает операции, интегрируя ключевые бизнес-процессы, такие как управление запасами, планирование производства, управление цепочками поставок и финансовый учет. Благодаря аналитике и отчетности в реальном времени, эта ERP-система помогает производителям оптимизировать эффективность, снижать затраты и улучшать принятие решений, обеспечивая бесперебойные операции и устойчивый рост."
-        },
-        "tags": [
-            {
-                "en": "Web Application",
-                "uz": "Veb Ilova",
-                "ru": "Веб-Приложение"
-            },
-            {
-                "en": "ERP",
-                "uz": "ERP",
-                "ru": "ERP"
-            },
-            {
-                "en": "Manufacturing",
-                "uz": "Ishlab Chiqarish",
-                "ru": "Производство"
-            }
-        ],
-        "image": "https://placehold.co/600x400",
-        "link": "https://crm.2003.uz/"
+    "description": {
+      "uz": "Sog'liqni saqlash sohasida xizmat ko'rsatuvchi mobil ilova bo'lib, foydalanuvchilarga turli tibbiy xizmatlardan foydalanish imkonini beradi. MyCareApp.uz, zamonaviy interfeys va qulay navigatsiya orqali sog'liqni saqlash xizmatlariga kirishni soddalashtiradi. Ilova foydalanuvchilar uchun barcha kerakli tibbiy xizmatlarni bir joyda taqdim etib, sog'liqni boshqarishni yanada osonlashtiradi.",
+      "ru": "Мобильное приложение в сфере здравоохранения, предоставляющее пользователям доступ к различным медицинским услугам. MyCareApp.uz упрощает доступ к медицинским сервисам благодаря современному интерфейсу и удобной навигации. Приложение объединяет все необходимые медицинские услуги в одном месте, облегчая управление здоровьем.",
+      "en": "A mobile application in the healthcare sector that provides users with access to various medical services. MyCareApp.uz simplifies access to healthcare services through a modern interface and easy navigation. The app brings all essential medical services together in one place, making health management more convenient."
     },
-    {
-        "id": "nuovohotel",
-        "title": "Nuovo Boutique Hotel",
-        "short_description": {
-            "en": "Nuvov Hotel – The Perfect Blend of Comfort and Luxury ",
-            "uz": "Nuvov Hotel – Qulaylik va Hashamat Uyg‘unligi  ",
-            "ru": "Nuvov Hotel – Идеальное сочетание комфорта и роскоши  "
-        },
-        "description": {
-            "en": "Nuvov Hotel is a modern hotel offering elegant design, top-tier service, and unforgettable comfort. We provide our guests with a cozy atmosphere, modern amenities, and exceptional hospitality to create lasting impressions.  ",
-            "uz": "Nuvov Hotel – это современный отель с элегантным дизайном, высоким уровнем сервиса и незабываемым комфортом. Мы предлагаем гостям уютную атмосферу, современные удобства и первоклассное обслуживание, создавая яркие впечатления.",
-            "ru": "Nuvov Hotel – это современный отель с элегантным дизайном, высоким уровнем сервиса и незабываемым комфортом. Мы предлагаем гостям уютную атмосферу, современные удобства и первоклассное обслуживание, создавая яркие впечатления."
-        },
-        "tags": [
-            {
-                "en": "Web Application",
-                "uz": "Veb Ilova",
-                "ru": "Веб-Приложение"
-            },
-            {
-                "en": "Business",
-                "uz": "Biznes",
-                "ru": "Бизнес"
-            },
-            {
-                "en": "Hotel",
-                "uz": "Mehmonxona",
-                "ru": "Отель"
-            }
-        ],
-        "image": "https://placehold.co/600x400",
-        "link": "https://nuovohotel.uz/"
+    "tags": [
+      {
+        "en": "Mobile App",
+        "uz": "Mobil Ilova",
+        "ru": "Мобильное Приложение"
+      },
+      {
+        "en": "Health Care",
+        "uz": "Sog'liqni Saqlash",
+        "ru": "Здравоохранение"
+      },
+      {
+        "en": "Wellness",
+        "uz": "Farovonlik",
+        "ru": "Благополучие"
+      }
+    ],
+    "image": "/assets/images/portfolio/mycareapp.jpg",
+    "link": "https://mycareapp.uz"
+  },
+  {
+    "id": "erp",
+    "title": "ERP System for Manufacturing",
+    "short_description": {
+      "en": "A web-based ERP system for manufacturing industries.",
+      "uz": "Ishlab chiqarish sanoati uchun veb-asosidagi ERP tizimi.",
+      "ru": "Веб-решение ERP для производственных отраслей."
     },
-    {
-        "id": "hsat",
-        "title": "Toshkent Shahar Statistika Boshqarmasi",
-        "short_description": {
-            "en": "Tashkent City Statistics Department – Reliable Data and Analysis",
-            "uz": "Toshkent Shahar Statistika Boshqarmasi – Ishonchli Ma'lumot va Tahlil",
-            "ru": "Ташкентское городское управление статистики – Надежные данные и анализ"
-        },
-        "description": {
-            "en": "Tashkent City Statistics Department provides accurate and up-to-date statistical data to support informed decision-making. Our services include economic analysis, demographic research, and comprehensive statistical reports.",
-            "uz": "Toshkent Shahar Statistika Boshqarmasi aniq va dolzarb statistik ma'lumotlarni taqdim etib, ongli qarorlar qabul qilishga yordam beradi. Xizmatlarimiz iqtisodiy tahlil, demografik tadqiqotlar va keng qamrovli statistik hisobotlarni o'z ichiga oladi.",
-            "ru": "Ташкентское городское управление статистики предоставляет точные и актуальные статистические данные для поддержки информированного принятия решений. Наши услуги включают экономический анализ, демографические исследования и всесторонние статистические отчеты."
-        },
-        "tags": [
-            {
-                "en": "Web Application",
-                "uz": "Veb Ilova",
-                "ru": "Веб-Приложение"
-            },
-            {
-                "en": "ERP",
-                "uz": "ERP",
-                "ru": "ERP"
-            },
-            {
-                "en": "Government",
-                "uz": "Vazirlik",
-                "ru": "Власть"
-            }
-        ],
-        "image": "https://placehold.co/600x400",
-        "link": "https://hsat.uz/"
+    "description": {
+      "en": "This ERP (Enterprise Resource Planning) system is a powerful web-based solution tailored specifically for manufacturing industries. It streamlines operations by integrating key business processes such as inventory management, production planning, supply chain management, and financial tracking. With real-time data analytics and reporting, this ERP system helps manufacturers optimize efficiency, reduce costs, and improve decision-making, ensuring seamless operations and sustainable growth.",
+      "uz": "Ushbu ERP (Enterprise Resource Planning) tizimi ishlab chiqarish sanoati uchun maxsus yaratilgan kuchli veb-asosidagi yechimdir. U inventarizatsiyani boshqarish, ishlab chiqarishni rejalashtirish, ta'minot zanjirini boshqarish va moliyaviy hisobot kabi asosiy biznes jarayonlarini birlashtirib, operatsiyalarni soddalashtiradi. Real vaqtda ma'lumotlar tahlili va hisobotlari bilan ushbu ERP tizimi ishlab chiqaruvchilarga samaradorlikni oshirish, xarajatlarni kamaytirish va qarorlar qabul qilishni yaxshilashga yordam beradi, bu esa uzluksiz operatsiyalar va barqaror o'sishni ta'minlaydi.",
+      "ru": "Эта ERP (система планирования ресурсов предприятия) — это мощное веб-решение, разработанное специально для производственных отраслей. Она упрощает операции, интегрируя ключевые бизнес-процессы, такие как управление запасами, планирование производства, управление цепочками поставок и финансовый учет. Благодаря аналитике и отчетности в реальном времени, эта ERP-система помогает производителям оптимизировать эффективность, снижать затраты и улучшать принятие решений, обеспечивая бесперебойные операции и устойчивый рост."
     },
-    {
-        "id": "hsat",
-        "title": "Toshkent Shahar Statistika Boshqarmasi",
-        "short_description": {
-            "en": "Tashkent City Statistics Department – Reliable Data and Analysis",
-            "uz": "Toshkent Shahar Statistika Boshqarmasi – Ishonchli Ma'lumot va Tahlil",
-            "ru": "Ташкентское городское управление статистики – Надежные данные и анализ"
-        },
-        "description": {
-            "en": "Tashkent City Statistics Department provides accurate and up-to-date statistical data to support informed decision-making. Our services include economic analysis, demographic research, and comprehensive statistical reports.",
-            "uz": "Toshkent Shahar Statistika Boshqarmasi aniq va dolzarb statistik ma'lumotlarni taqdim etib, ongli qarorlar qabul qilishga yordam beradi. Xizmatlarimiz iqtisodiy tahlil, demografik tadqiqotlar va keng qamrovli statistik hisobotlarni o'z ichiga oladi.",
-            "ru": "Ташкентское городское управление статистики предоставляет точные и актуальные статистические данные для поддержки информированного принятия решений. Наши услуги включают экономический анализ, демографические исследования и всесторонние статистические отчеты."
-        },
-        "tags": [
-            {
-                "en": "Web Application",
-                "uz": "Veb Ilova",
-                "ru": "Веб-Приложение"
-            },
-            {
-                "en": "ERP",
-                "uz": "ERP",
-                "ru": "ERP"
-            },
-            {
-                "en": "Government",
-                "uz": "Vazirlik",
-                "ru": "Власть"
-            }
-        ],
-        "image": "https://placehold.co/600x400",
-        "link": "https://hsat.uz/"
-    }
+    "tags": [
+      {
+        "en": "Web Application",
+        "uz": "Veb Ilova",
+        "ru": "Веб-Приложение"
+      },
+      {
+        "en": "ERP",
+        "uz": "ERP",
+        "ru": "ERP"
+      },
+      {
+        "en": "Manufacturing",
+        "uz": "Ishlab Chiqarish",
+        "ru": "Производство"
+      }
+    ],
+    "image": "/assets/images/portfolio/crm.png",
+    "link": "https://crm.2003.uz/"
+  },
+  {
+    "id": "nuovohotel",
+    "title": "Nuovo Boutique Hotel",
+    "short_description": {
+    "uz": "Toshkentdagi zamonaviy va qulay mehmonxona.",
+    "ru": "Современный и комфортабельный отель в Ташкенте.",
+    "en": "A modern and comfortable hotel in Tashkent."
+  },
+    "description": {
+      "uz": "Nuovo Hotel - Toshkentda joylashgan eng zamonaviy va barcha qulayliklarga ega bo’lgan mehmonxonalardan biri bo'lib, mijozlarga yuqori sifatli xizmatlarni va unutilmas muhitni taqdim etadi. Sayt mehmonxona haqida to'liq ma'lumot, xonalar, narxlar, xizmatlar haqida batafsil ma'lumot beradi va foydalanuvchilarga xonalarni oson bron qilish imkoniyatini taqdim etadi.",
+      "ru": "Nuovo Hotel — один из самых современных и комфортабельных отелей Ташкента, предоставляющий клиентам высококачественные услуги и незабываемую атмосферу. Сайт предоставляет полную информацию об отеле, номерах, ценах и услугах, а также дает пользователям возможность легко забронировать номера.",
+      "en": "Nuovo Hotel is one of the most modern and comfortable hotels in Tashkent, offering high-quality services and an unforgettable atmosphere. The website provides complete information about the hotel, rooms, prices, and services, and allows users to easily book rooms."
+    },
+    "tags": [
+      {
+        "en": "Web Application",
+        "uz": "Veb Ilova",
+        "ru": "Веб-Приложение"
+      },
+      {
+        "en": "Business",
+        "uz": "Biznes",
+        "ru": "Бизнес"
+      },
+      {
+        "en": "Hotel",
+        "uz": "Mehmonxona",
+        "ru": "Отель"
+      }
+    ],
+    "image": "/assets/images/portfolio/nuovohotel.jpg",
+    "link": "https://nuovohotel.uz/"
+  },
+  {
+    "id": "hsat",
+    "title": "Toshkent Shahar Statistika Boshqarmasi",
+    "short_description": {
+        "uz": "Hujjat almashinuvi va elektron imzolash uchun veb-sayt.",
+        "ru": "Веб-сайт для обмена документами и электронной подписи.",
+        "en": "A website for document exchange and electronic signing."
+      },
+    "description": {
+    "uz": "HSAT.uz – Toshkent shahar statistika boshqarmasi uchun yaratilgan veb-sayt bo'lib, rasmiy hujjatlarni almashish jarayonini soddalashtirishga qaratilgan. Sayt xatlarni elektron imzolash va pochtaga yuborish imkoniyatlarini taqdim etadi, bu esa hukumat organlari va tashkilotlar o'rtasidagi hujjat almashinishini ancha tezlashtiradi, shu bilan birga hujjatlarning xavfsizligi va ishonchliligini ta'minlaydi. Ushbu sayt, xat almashuvlari va imzolash jarayonlarini avtomatlashtirish va samarali boshqarish maqsadida yaratildi.",
+    "ru": "HSAT.uz — веб-сайт, созданный для Главного управления статистики города Ташкента, с целью упрощения процесса обмена официальными документами. Сайт предоставляет возможности для электронной подписи писем и их отправки по почте, что значительно ускоряет документооборот между государственными органами и организациями, обеспечивая при этом безопасность и надежность документов. Этот сайт был разработан для автоматизации и эффективного управления процессами обмена письмами и их подписания.",
+    "en": "HSAT.uz is a website created for the Tashkent City Statistics Department to simplify the process of exchanging official documents. The site provides features for electronically signing letters and sending them via mail, significantly speeding up document exchange between government agencies and organizations while ensuring the security and reliability of documents. This website was developed to automate and efficiently manage letter exchange and signing processes."
+  },
+    "tags": [
+      {
+        "en": "Web Application",
+        "uz": "Veb Ilova",
+        "ru": "Веб-Приложение"
+      },
+      {
+        "en": "ERP",
+        "uz": "ERP",
+        "ru": "ERP"
+      },
+      {
+        "en": "Government",
+        "uz": "Vazirlik",
+        "ru": "Власть"
+      }
+    ],
+    "image": "/assets/images/portfolio/hsat.uz.jpg",
+    "link": "https://hsat.uz/"
+  },
+  {
+    "id": "paramach",
+    "title": "Paramach.uz",
+    "description": {
+    "uz": "Paramach.uz – turli hildagi paramachinalarni onlayn buyurtma qilish uchun mo'ljallangan sayt va mini-ilova. Ushbu platforma foydalanuvchilarga paramachlarni oson va qulay tarzda tanlash, buyurtma berish imkoniyatini yaratadi. Bu sayt zamonaviy texnologiyalar va qulayliklarni birlashtirgan holda, onlayn savdo sohasidagi samaradorlikni oshiradi.",
+    "ru": "Paramach.uz — сайт и мини-приложение, предназначенное для онлайн-заказа различных видов парамашин. Эта платформа предоставляет пользователям удобную возможность выбора и оформления заказа парамачей. Объединяя современные технологии и удобство, сайт повышает эффективность онлайн-торговли.",
+    "en": "Paramach.uz is a website and mini-app designed for ordering various types of paramachines online. This platform allows users to easily select and place orders for paramachs. By combining modern technology and convenience, the site enhances efficiency in the online trade sector."
+  },
+  "short_description": {
+    "uz": "Paramachlarni onlayn buyurtma qilish platformasi.",
+    "ru": "Платформа для онлайн-заказа парамачей.",
+    "en": "A platform for ordering paramachs online."
+  },
+    "tags": [
+      {
+        "en": "Mini App",
+        "uz": "Mini Ilova",
+        "ru": "Мини-Приложение"
+      },
+      {
+        "en": "Telegram Bot",
+        "uz": "Telegram Bot",
+        "ru": "Телеграм-Бот"
+      },
+      {
+        "en": "Business",
+        "uz": "Biznes",
+        "ru": "Бизнес"
+      }
+    ],
+    "image": "/assets/images/portfolio/paramach.png",
+    "link": "https://paramach.uz/"
+  },
+  {
+    "id": "ashurlaw",
+    "title": "Ashurlaw.com",
+    "description": {
+    "uz": "Ashurlaw.com — yuridik xizmatlar taqdim etuvchi professional kompaniya veb-sayti bo'lib, mijozlarga huquqiy maslahatlar va yuridik yordam ko'rsatish maqsadida yaratilgan. Sayt, o'zining sodda va foydalanuvchilar uchun qulay dizayni orqali, kompaniyaning xizmatlari, huquqiy sohalar, va mutaxassislar bilan tanishish imkoniyatini taqdim etadi. Shuningdek, mijozlar bilan samarali aloqani ta'minlash uchun online maslahatlar va xizmatlar rezervatsiyasini osonlashtiradi. Bu sayt, o'zining professional ko'rinishi va funksional imkoniyatlari bilan mijozlarga ishonchli huquqiy yordam olishda qulaylik yaratadi.",
+    "ru": "Ashurlaw.com — профессиональный сайт юридической компании, предоставляющий клиентам правовые консультации и юридическую помощь. Благодаря простому и удобному дизайну, сайт предлагает информацию о юридических услугах, отраслях права и специалистах компании. Кроме того, он облегчает онлайн-консультации и бронирование юридических услуг, обеспечивая эффективное взаимодействие с клиентами. Сайт сочетает профессиональный внешний вид и функциональные возможности, создавая удобство для получения надежной юридической помощи.",
+    "en": "Ashurlaw.com is a professional website of a legal services company, designed to provide clients with legal consultations and assistance. With its simple and user-friendly design, the site offers information about legal services, areas of law, and company specialists. Additionally, it facilitates online consultations and service reservations, ensuring efficient client interaction. The website combines a professional appearance with functional capabilities, making legal assistance more accessible and reliable for clients."
+  },
+  "short_description": {
+    "uz": "Yuridik maslahat va xizmatlar taqdim etuvchi veb-sayt.",
+    "ru": "Веб-сайт юридических консультаций и услуг.",
+    "en": "A website providing legal consultations and services."
+  },
+    "tags": [
+      {
+        "en": "Website",
+        "uz": "Veb-sayt",
+        "ru": "Веб-сайт"
+      }
+    ],
+    "image": "/assets/images/portfolio/ashurlaw.jpg",
+    "link": "https://ahurlaw.com/"
+  },
+  {
+    "id": "lh-house",
+    "title": "LH-Dream.uz",
+    "description": {
+        "uz": "LH-Dream.uz – qurilish jarayonlarini avtomatlashtirish uchun mo'ljallangan veb-sayt bo'lib, foydalanuvchilarga qurilish loyihalarini boshqarish, rejalashtirish va loyiha jarayonini real vaqt rejimida kuzatish imkoniyatlarini taqdim etadi. Sayt qurilish sohasidagi barcha bosqichlarni avtomatlashtirishga imkon berib, vaqtni tejash va resurslardan samarali foydalanishni ta'minlaydi.",
+        "ru": "LH-Dream.uz — веб-сайт, предназначенный для автоматизации строительных процессов, предоставляющий пользователям возможность управлять строительными проектами, планировать и отслеживать ход выполнения работ в режиме реального времени. Сайт позволяет автоматизировать все этапы строительства, экономя время и обеспечивая эффективное использование ресурсов.",
+        "en": "LH-Dream.uz is a website designed to automate construction processes, allowing users to manage construction projects, plan, and track project progress in real-time. The site enables automation of all construction stages, saving time and ensuring efficient resource utilization."
+      },
+      "short_description": {
+        "uz": "Qurilish jarayonlarini avtomatlashtirish platformasi.",
+        "ru": "Платформа для автоматизации строительных процессов.",
+        "en": "A platform for automating construction processes."
+      },
+    "tags": [
+      {
+        "en": "Website",
+        "uz": "Veb-sayt",
+        "ru": "Веб-сайт"
+      },
+      {
+        "en": "ERP",
+        "uz": "ERP",
+        "ru": "ERP"
+      }
+    ],
+    "image": "/assets/images/portfolio/landhouse.jpg",
+    "link": "https://lh-dream.uz/"
+  }
 ]
