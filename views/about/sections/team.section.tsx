@@ -7,8 +7,8 @@ const TEAM = [
     {
         id: 1,
         full_name: 'Ulugbek Temirov',
-        speciality: 'Frontend Engineer',
-        image: 'ulugbek',
+        speciality: 'Frontend Developer',
+        image: '/assets/images/team/ulugbek.jpg',
         socials: {
             instagram: 'https://instagram.com/just_ulugbek',
             telegram: 'https://t.me/TemirovUlugbek',
@@ -16,10 +16,10 @@ const TEAM = [
         }
     },
     {
-        id: 1,
-        full_name: 'Sarvarbek Nabiyev',
+        id: 2,
+        full_name: 'Behruzbek Dilmurodov',
         speciality: 'UI/UX designer',
-        image: 'sarvar',
+        image: '/assets/images/team/behruzbek.jpg',
         socials: {
             instagram: 'https://instagram.com/just_ulugbek',
             telegram: 'https://t.me/TemirovUlugbek',
@@ -27,10 +27,10 @@ const TEAM = [
         }
     },
     {
-        id: 1,
+        id: 3,
         full_name: 'Fayzulloh Abdullayev',
-        speciality: 'Backend developer',
-        image: 'fayzulloh',
+        speciality: 'Project manager',
+        image: '/assets/images/team/fayzulloh.jpg',
         socials: {
             instagram: 'https://instagram.com/just_ulugbek',
             telegram: 'https://t.me/TemirovUlugbek',
@@ -38,10 +38,32 @@ const TEAM = [
         }
     },
     {
-        id: 1,
+        id: 4,
         full_name: 'Abdusamad Malikov',
         speciality: 'Backend developer',
-        image: 'abdusamad',
+        image: '/assets/images/team/unknown.webp',
+        socials: {
+            instagram: 'https://instagram.com/just_ulugbek',
+            telegram: 'https://t.me/TemirovUlugbek',
+            linkedin: 'https://linkedin.com/in/ulugbektemirov',
+        }
+    },
+    {
+        id: 5,
+        full_name: 'Umarbek Saidov',
+        speciality: 'Mobile developer',
+        image: '/assets/images/team/umarbek.jpg',
+        socials: {
+            instagram: 'https://instagram.com/just_ulugbek',
+            telegram: 'https://t.me/TemirovUlugbek',
+            linkedin: 'https://linkedin.com/in/ulugbektemirov',
+        }
+    },
+    {
+        id: 5,
+        full_name: 'Iroda Madaminova',
+        speciality: 'Sales manager',
+        image: '/assets/images/team/iroda.jpg',
         socials: {
             instagram: 'https://instagram.com/just_ulugbek',
             telegram: 'https://t.me/TemirovUlugbek',

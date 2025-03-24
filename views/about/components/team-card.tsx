@@ -27,8 +27,8 @@ const TeamCard = (props: Props) => {
         <div className="overflow-hidden rounded">
         <Image
           unoptimized
-          className="w-full h-[400px] object-cover rounded !mt-0 hover:scale-110 duration-200"
-          src={`/assets/images/team/${image}.png`}
+          className="w-full h-[400px] object-cover object-top rounded !mt-0 hover:scale-110 duration-200"
+          src={`${image}`}
           width={0}
           height={0}
           alt={full_name || "team image"}
