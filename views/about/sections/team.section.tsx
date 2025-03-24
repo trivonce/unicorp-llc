@@ -8,7 +8,7 @@ const TEAM = [
         id: 1,
         full_name: 'Ulugbek Temirov',
         speciality: 'Frontend Developer',
-        image: '/assets/images/team/ulugbek.jpg',
+        image: '/assets/images/team/ulugbek.webp',
         socials: {
             instagram: 'https://instagram.com/just_ulugbek',
             telegram: 'https://t.me/TemirovUlugbek',
@@ -19,7 +19,7 @@ const TEAM = [
         id: 2,
         full_name: 'Behruzbek Dilmurodov',
         speciality: 'UI/UX designer',
-        image: '/assets/images/team/behruzbek.jpg',
+        image: '/assets/images/team/behruzbek.webp',
         socials: {
             instagram: 'https://instagram.com/just_ulugbek',
             telegram: 'https://t.me/TemirovUlugbek',
@@ -30,7 +30,7 @@ const TEAM = [
         id: 3,
         full_name: 'Fayzulloh Abdullayev',
         speciality: 'Project manager',
-        image: '/assets/images/team/fayzulloh.jpg',
+        image: '/assets/images/team/fayzulloh.webp',
         socials: {
             instagram: 'https://instagram.com/just_ulugbek',
             telegram: 'https://t.me/TemirovUlugbek',
@@ -52,7 +52,7 @@ const TEAM = [
         id: 5,
         full_name: 'Umarbek Saidov',
         speciality: 'Mobile developer',
-        image: '/assets/images/team/umarbek.jpg',
+        image: '/assets/images/team/umarbek.webp',
         socials: {
             instagram: 'https://instagram.com/just_ulugbek',
             telegram: 'https://t.me/TemirovUlugbek',
@@ -63,7 +63,7 @@ const TEAM = [
         id: 5,
         full_name: 'Iroda Madaminova',
         speciality: 'Sales manager',
-        image: '/assets/images/team/iroda.jpg',
+        image: '/assets/images/team/iroda.webp',
         socials: {
             instagram: 'https://instagram.com/just_ulugbek',
             telegram: 'https://t.me/TemirovUlugbek',
