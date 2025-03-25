@@ -35,9 +35,11 @@ const TeamCard = (props: Props) => {
         />
         </div>
       </CardHeader>
-      <CardContent className="p-5 pt-0">
+      <CardContent className="p-5 pt-0">  
+        <div>
         <h1 className="text-2xl font-semibold">{full_name}</h1>
         <p className="font-light mt-1">{speciality}</p>
+        </div>
         <div className="flex gap-2.5 mt-2.5">
           {Object.keys(socials).map((key, index) => (
             <a target="__blank" href={socials[key]} key={index}>

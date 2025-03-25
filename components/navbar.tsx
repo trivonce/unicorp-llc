@@ -47,7 +47,7 @@ const Navbar = () => {
           )}
         </Link>
 
-        <NavigationMenu>
+        <NavigationMenu className="hidden md:flex">
           <NavigationMenuList className="gap-10">
             <NavigationMenuItem>
               <Link href="/about" legacyBehavior passHref>
