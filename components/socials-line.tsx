@@ -5,37 +5,17 @@ import Icon from "./icon";
 const SOCIALS = [
     {
         id: "telegram",
-        link: "",
+        link: "https://t.me/unicorpuz",
         color: "hover:!bg-[#0088CC]",
     },
     {
-        id: "youtube",
-        link: "",
-        color: "hover:!bg-[#FF0000]",
-    },
-    {
-        id: "twitter",
-        link: "",
-        color: "hover:!bg-[#1DA1F2]",
-    },
-    {
         id: "instagram",
-        link: "",
+        link: "https://www.instagram.com/unicorp.uz",
         color: "hover:!bg-[#C13584]",
     },
     {
-        id: "tiktok",
-        link: "",
-        color: "hover:!bg-[#00F2EA]",
-    },
-    {
-        id: "facebook",
-        link: "",
-        color: "hover:!bg-[#1877F2]",
-    },
-    {
         id: "linkedin",
-        link: "",
+        link: "https://www.linkedin.com/company/unicorpllc",
         color: "hover:!bg-[#0e76a8]",
     },
 ];
