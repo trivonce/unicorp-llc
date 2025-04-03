@@ -68,15 +68,15 @@ const StacksSection = () => {
   const { t } = useTranslation()
 
   return (
-    <section id="stacks" className="container py-[60px]">
-      <h1 className="text-2xl font-semibold">
+    <section id="stacks" className="container py-[30px] md:py-[60px]">
+      <h1 className="text-xl md:text-2xl font-semibold">
         <span className="text-brand mr-1">#</span> {t('home.stacks')}
       </h1>
 
-      <div className="grid grid-cols-5 items-center gap-5 mt-[60px]">
-          {STACKS.map((stack) => <div key={stack.id} className="gap-2.5 flex flex-col items-center justify-center bg-card rounded-md p-5">
-              <Icon icon={stack.icon} size={120} colored />
-              <h1 className="font-semibold">{stack.name}</h1>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 items-center gap-3 md:gap-5 mt-[30px] md:mt-[60px]">
+          {STACKS.map((stack) => <div key={stack.id} className="gap-2 md:gap-2.5 flex flex-col items-center justify-center bg-card rounded-md p-3 md:p-5">
+              <Icon icon={stack.icon} size={80} colored className="w-16 h-16 md:w-[120px] md:h-[120px]" />
+              <h1 className="font-semibold text-sm md:text-base">{stack.name}</h1>
           </div>)}
       </div>
     </section>

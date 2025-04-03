@@ -1,16 +1,16 @@
 [
   {
     "id": "mycareapp",
-    "title": "My Care App",
+    "title": "MyCare",
     "short_description": {
       "uz": "Tibbiy xizmatlarga oson kirish imkonini beruvchi mobil ilova.",
       "ru": "Мобильное приложение для удобного доступа к медицинским услугам.",
       "en": "A mobile app for easy access to medical services."
     },
     "description": {
-      "uz": "Sog'liqni saqlash sohasida xizmat ko'rsatuvchi mobil ilova bo'lib, foydalanuvchilarga turli tibbiy xizmatlardan foydalanish imkonini beradi. MyCareApp.uz, zamonaviy interfeys va qulay navigatsiya orqali sog'liqni saqlash xizmatlariga kirishni soddalashtiradi. Ilova foydalanuvchilar uchun barcha kerakli tibbiy xizmatlarni bir joyda taqdim etib, sog'liqni boshqarishni yanada osonlashtiradi.",
-      "ru": "Мобильное приложение в сфере здравоохранения, предоставляющее пользователям доступ к различным медицинским услугам. MyCareApp.uz упрощает доступ к медицинским сервисам благодаря современному интерфейсу и удобной навигации. Приложение объединяет все необходимые медицинские услуги в одном месте, облегчая управление здоровьем.",
-      "en": "A mobile application in the healthcare sector that provides users with access to various medical services. MyCareApp.uz simplifies access to healthcare services through a modern interface and easy navigation. The app brings all essential medical services together in one place, making health management more convenient."
+      "uz": "Sog'liqni saqlash sohasida xizmat ko'rsatuvchi mobil ilova bo'lib, foydalanuvchilarga turli tibbiy xizmatlardan foydalanish imkonini beradi. MyCare, zamonaviy interfeys va qulay navigatsiya orqali sog'liqni saqlash xizmatlariga kirishni soddalashtiradi. Ilova foydalanuvchilar uchun barcha kerakli tibbiy xizmatlarni bir joyda taqdim etib, sog'liqni boshqarishni yanada osonlashtiradi.",
+      "ru": "Мобильное приложение в сфере здравоохранения, предоставляющее пользователям доступ к различным медицинским услугам. MyCare упрощает доступ к медицинским сервисам благодаря современному интерфейсу и удобной навигации. Приложение объединяет все необходимые медицинские услуги в одном месте, облегчая управление здоровьем.",
+      "en": "A mobile application in the healthcare sector that provides users with access to various medical services. MyCare simplifies access to healthcare services through a modern interface and easy navigation. The app brings all essential medical services together in one place, making health management more convenient."
     },
     "tags": [
       {
@@ -41,9 +41,9 @@
       "ru": "Веб-решение ERP для производственных отраслей."
     },
     "description": {
-      "en": "This ERP (Enterprise Resource Planning) system is a powerful web-based solution tailored specifically for manufacturing industries. It streamlines operations by integrating key business processes such as inventory management, production planning, supply chain management, and financial tracking. With real-time data analytics and reporting, this ERP system helps manufacturers optimize efficiency, reduce costs, and improve decision-making, ensuring seamless operations and sustainable growth.",
-      "uz": "Ushbu ERP (Enterprise Resource Planning) tizimi ishlab chiqarish sanoati uchun maxsus yaratilgan kuchli veb-asosidagi yechimdir. U inventarizatsiyani boshqarish, ishlab chiqarishni rejalashtirish, ta'minot zanjirini boshqarish va moliyaviy hisobot kabi asosiy biznes jarayonlarini birlashtirib, operatsiyalarni soddalashtiradi. Real vaqtda ma'lumotlar tahlili va hisobotlari bilan ushbu ERP tizimi ishlab chiqaruvchilarga samaradorlikni oshirish, xarajatlarni kamaytirish va qarorlar qabul qilishni yaxshilashga yordam beradi, bu esa uzluksiz operatsiyalar va barqaror o'sishni ta'minlaydi.",
-      "ru": "Эта ERP (система планирования ресурсов предприятия) — это мощное веб-решение, разработанное специально для производственных отраслей. Она упрощает операции, интегрируя ключевые бизнес-процессы, такие как управление запасами, планирование производства, управление цепочками поставок и финансовый учет. Благодаря аналитике и отчетности в реальном времени, эта ERP-система помогает производителям оптимизировать эффективность, снижать затраты и улучшать принятие решений, обеспечивая бесперебойные операции и устойчивый рост."
+      "en": "This ERP system is a powerful web-based solution tailored specifically for manufacturing industries. It streamlines operations by integrating key business processes such as inventory management, production planning, supply chain management, and financial tracking. With real-time data analytics and reporting, this ERP system helps manufacturers optimize efficiency, reduce costs, and improve decision-making, ensuring seamless operations and sustainable growth.",
+      "uz": "Ushbu ERP tizimi ishlab chiqarish sanoati uchun maxsus yaratilgan kuchli veb-asosidagi yechimdir. U inventarizatsiyani boshqarish, ishlab chiqarishni rejalashtirish, ta'minot zanjirini boshqarish va moliyaviy hisobot kabi asosiy biznes jarayonlarini birlashtirib, operatsiyalarni soddalashtiradi. Real vaqtda ma'lumotlar tahlili va hisobotlari bilan ushbu ERP tizimi ishlab chiqaruvchilarga samaradorlikni oshirish, xarajatlarni kamaytirish va qarorlar qabul qilishni yaxshilashga yordam beradi, bu esa uzluksiz operatsiyalar va barqaror o'sishni ta'minlaydi.",
+      "ru": "Эта ERP мощное веб-решение, разработанное специально для производственных отраслей. Она упрощает операции, интегрируя ключевые бизнес-процессы, такие как управление запасами, планирование производства, управление цепочками поставок и финансовый учет. Благодаря аналитике и отчетности в реальном времени, эта ERP-система помогает производителям оптимизировать эффективность, снижать затраты и улучшать принятие решений, обеспечивая бесперебойные операции и устойчивый рост."
     },
     "tags": [
       {

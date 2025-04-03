@@ -75,14 +75,14 @@ const TEAM = [
 const TeamSection = () => {
     const { t } = useTranslation()
 
-    return <section className="container py-[60px]">
-        <h1 className="text-2xl font-semibold">
-        <span className="text-brand mr-1">#</span> {t('common.ourTeam')}
-      </h1>
+    return <section className="container px-4 md:px-6 py-[30px] md:py-[60px]">
+        <h1 className="text-xl md:text-2xl font-semibold">
+            <span className="text-brand mr-1">#</span> {t('common.ourTeam')}
+        </h1>
 
-      <div className="grid 2xl:grid-cols-4 grid-cols-3 gap-5 mt-[60px]">
-        {TEAM.map((member, index) => <TeamCard key={index} {...member} />)}
-      </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 md:gap-5 mt-6 md:mt-[60px]">
+            {TEAM.map((member, index) => <TeamCard key={index} {...member} />)}
+        </div>
     </section>
 }
 

@@ -18,30 +18,30 @@ const { t, i18n: { language } } = useTranslation()
 
   return (
     <main>
-      <section id="hero" className="pt-10 pb-[60px] container">
+      <section id="hero" className="pt-6 md:pt-10 pb-[30px] md:pb-[60px] container px-4 md:px-6">
         <div className="flex justify-center">
           <span className="mx-auto inline-block">
-            <h1 className="text-2xl font-semibold text-tp text-center uppercase">
+            <h1 className="text-xl md:text-2xl font-semibold text-tp text-center uppercase">
               {t('common.services')}
             </h1>
             <img
-              className="animate-bounce mx-auto mt-8"
+              className="animate-bounce mx-auto mt-4 md:mt-8"
               src="/assets/shapes/arrow.svg"
               alt="arrow"
             />
-            <h1 className="text-center font-semibold text-fs60">
+            <h1 className="text-center font-semibold text-3xl md:text-4xl lg:text-fs60">
               {t('services.title')}
             </h1>
           </span>
         </div>
       </section>
 
-      <section className="container py-[60px]">
-        <h1 className="text-2xl font-semibold">
+      <section className="container px-4 md:px-6 py-[30px] md:py-[60px]">
+        <h1 className="text-xl md:text-2xl font-semibold">
           <span className="text-brand mr-1">#</span> {t('common.services')}
         </h1>
 
-        <div className="grid grid-cols-3 gap-5 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5 mt-6 md:mt-10">
           {/* {isLoading && Array.from({ length: 6 }).map((_, index) => (
             <Skeleton
               key={index}
@@ -50,23 +50,23 @@ const { t, i18n: { language } } = useTranslation()
           ))} */}
           {services?.map((service: any, index: number) => (
             <Card
-              className="h-[550px] flex flex-col justify-between"
+              className="h-auto md:h-[550px] flex flex-col justify-between"
               key={index}
             >
               <CardHeader>
                 <CardTitle className="sr-only">Card Title</CardTitle>
-                <div className="flex flex-col gap-2.5">
-                  <span className="rounded-sm w-[100px] h-[100px] shrink-0 bg-brand flex items-center justify-center">
-                    <Icon color="white" size={60} icon={`shape_${index + 1}`} />
+                <div className="flex flex-col gap-2 md:gap-2.5">
+                  <span className="rounded-sm w-[80px] h-[80px] md:w-[100px] md:h-[100px] shrink-0 bg-brand flex items-center justify-center">
+                    <Icon color="white" size={40} icon={`shape_${index + 1}`} className="md:scale-150" />
                   </span>
-                  <h1 className="text-[28px] font-medium">
+                  <h1 className="text-2xl md:text-[28px] font-medium">
                     {service.title[language]}
                   </h1>
                 </div>
               </CardHeader>
 
               <CardContent>
-                <p className="text-xl text-tp-white-500 font-light font-mono">
+                <p className="text-base md:text-xl text-tp-white-500 font-light font-mono">
                   {service.description[language]}
                 </p>
               </CardContent>

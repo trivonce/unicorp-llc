@@ -62,26 +62,26 @@ const ServicesSection = () => {
   const { t, i18n: { language } } = useTranslation()
 
   return (
-    <section id="services" className="container py-[60px]">
-      <h1 className="text-2xl font-semibold">
+    <section id="services" className="container py-[30px] md:py-[60px]">
+      <h1 className="text-xl md:text-2xl font-semibold">
         <span className="text-brand mr-1">#</span>{t('common.services')}
       </h1>
 
-      <div className="grid grid-cols-3 gap-5 mt-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5 mt-5 md:mt-10">
         {/* {isLoading && Array.from({length: 6}).map((_, index) => <Skeleton key={index} className="h-[262px] w-full rounded-md" />)} */}
         {services.map((service: any, index: number) => (
           <Card data-aos='fade-up' data-aos-delay={index * 100} data-aos-easing="ease-in" className="border-none p-1.5 shadow-none" key={index}>
             <CardHeader>
               <CardTitle className="sr-only">Card Title</CardTitle>
-              <span className="w-20 h-20 rounded-md bg-[#0382A7] flex items-center justify-center ">
-                <Icon size={50} icon={`shape_${index + 1}`} color="white" />
+              <span className="w-16 h-16 md:w-20 md:h-20 rounded-md bg-[#0382A7] flex items-center justify-center">
+                <Icon size={40} icon={`shape_${index + 1}`} color="white" className="w-10 h-10 md:w-[50px] md:h-[50px]" />
               </span>
             </CardHeader>
             <CardContent>
-              <h1 className="text-xl font-medium line-clamp-1">
+              <h1 className="text-lg md:text-xl font-medium line-clamp-1">
                 {service.title[language]}
               </h1>
-              <p className="text-sm font-light mt-1 h-[60px] line-clamp-3">
+              <p className="text-xs md:text-sm font-light mt-1 h-[48px] md:h-[60px] line-clamp-3">
                 {service.description[language]}
               </p>
             </CardContent>
@@ -89,7 +89,7 @@ const ServicesSection = () => {
         ))}
       </div>
 
-      <div className="flex justify-center mt-[60px]">
+      <div className="flex justify-center mt-[30px] md:mt-[60px]">
         <Link
           className={buttonVariants({ variant: "outline" })}
           href={"/services"}

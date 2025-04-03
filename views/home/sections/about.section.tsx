@@ -13,7 +13,10 @@ import { useTranslation } from "react-i18next";
     const lastScrollTop = useRef<number>(0);
 
     useEffect(() => {
-      const images = imagesRef.current?.querySelectorAll("img");
+      const images = [
+        ...Array.from(imagesRef.current?.querySelectorAll("img") || []),
+        ...Array.from(imagesRef.current?.querySelectorAll("video") || [])
+      ];
       let currentSkew = 0;
 
       const handleScroll = () => {
@@ -75,44 +78,46 @@ import { useTranslation } from "react-i18next";
     return (
       <section
         id="about"
-        className="container grid grid-cols-2 py-[60px] items-center gap-20"
+        className="container grid grid-cols-1 md:grid-cols-2 py-[30px] md:py-[60px] items-center gap-10 md:gap-20"
       >
         <div
           data-aos="fade-in"
-          className="grid grid-cols-2 gap-10 items-center"
+          className="grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-10 items-center"
           ref={imagesRef}
         >
-          <div className="flex flex-col items-end gap-10">
+          <div className="flex flex-col items-center sm:items-end gap-5 sm:gap-10">
+            <video
+              className="w-full sm:w-[300px] h-[250px] sm:h-[400px] rounded-[10px] object-cover"
+              autoPlay
+              muted
+              loop
+              playsInline
+            >
+              <source src="/assets/videos/office_video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
             <Image
               unoptimized
-              className="w-[300px] h-[400px] rounded-[10px]"
-              src="/assets/temp/about-1.png"
-              alt="about"
-              width={0}
-              height={0}
-            />
-            <Image
-              unoptimized
-              className="w-[150px] h-[200px] rounded-[10px]"
-              src="/assets/temp/about-3.png"
+              className="w-full sm:w-[150px] h-[200px] rounded-[10px]"
+              src="/assets/images/about/office_3.png"
               alt="about"
               width={0}
               height={0}
             />
           </div>
-          <div className="flex flex-col gap-10">
+          <div className="flex flex-col gap-5 sm:gap-10">
             <Image
               unoptimized
-              className="w-[150px] h-[200px] rounded-[10px]"
-              src="/assets/temp/about-2.png"
+              className="w-full sm:w-[150px] h-[200px] rounded-[10px]"
+              src="/assets/images/about/office_1.jpg"
               alt="about"
               width={0}
               height={0}
             />
             <Image
               unoptimized
-              className="w-[222px] h-[296px] rounded-[10px]"
-              src="/assets/temp/about-4.png"
+              className="w-full sm:w-[222px] h-[296px] rounded-[10px]"
+              src="/assets/images/about/office_2.png"
               alt="about"
               width={0}
               height={0}
@@ -120,11 +125,11 @@ import { useTranslation } from "react-i18next";
           </div>
         </div>
 
-        <div>
-          <h1 data-aos="fade-left" className="font-semibold text-2xl w-fit">
+        <div className="mt-10 md:mt-0">
+          <h1 data-aos="fade-left" className="font-semibold text-xl md:text-2xl w-fit">
             <span className="text-brand mr-1">#</span>{t("home.about.title")}
           </h1>
-          <p data-aos="fade-up" className="text-tp-secondary text-xl mt-5">
+          <p data-aos="fade-up" className="text-tp-secondary text-base md:text-xl mt-5">
             {t("home.about.text1")}
             
             <br /><br />
@@ -137,7 +142,7 @@ import { useTranslation } from "react-i18next";
           <Link
             id="link"
             data-aos="fade-up"
-            className="mt-10 inline-block text-xl hover:underline"
+            className="mt-5 md:mt-10 inline-block text-base md:text-xl hover:underline"
             href="/about"
           >
             {t("home.about.link")}

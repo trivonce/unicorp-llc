@@ -20,6 +20,9 @@ import { Button } from "./ui/button";
 import { useMountedTheme } from "@/hooks/use-mounted-theme";
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
+import { Menu, X } from "lucide-react";
+import { useState } from "react";
+import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "./ui/sheet";
 
 // db
 import services from '@/db/services.json'
@@ -31,6 +34,7 @@ const Navbar = () => {
   const router = useRouter()
   const { theme, resolvedTheme, mounted } = useMountedTheme();
   const pathname = usePathname()
+  const [isOpen, setIsOpen] = useState(false);
 
   const logoSrc = `/assets/logo/unicorp${
     mounted && (theme || resolvedTheme) === "light" ? "-light" : "-dark"
@@ -38,12 +42,12 @@ const Navbar = () => {
 
   return (
     <div id="navbar" className="fixed w-full left-0 top-0 z-40 bg-background">
-      <div className="container flex items-center justify-between py-5 px-10 gap-10 rounded-[30px]">
+      <div className="container flex items-center justify-between py-3 md:py-5 px-4 md:px-10 gap-4 md:gap-10 rounded-[30px]">
         <Link className="shrink-0" href="/">
           {mounted ? (
-            <img className="w-[170px]" src={logoSrc} alt="Unicorp Logo" />
+            <img className="w-[120px] md:w-[170px]" src={logoSrc} alt="Unicorp Logo" />
           ) : (
-            <div className="w-[170px] h-[40px] bg-muted animate-pulse rounded-md" />
+            <div className="w-[120px] md:w-[170px] h-[30px] md:h-[40px] bg-muted animate-pulse rounded-md" />
           )}
         </Link>
 
@@ -63,32 +67,30 @@ const Navbar = () => {
                   <li className="row-span-3">
                     {[services.find((service: any) => service.main)].map((service: any, index: number) => (
                       <NavigationMenuLink key={index} asChild>
-                      <a
-                        className="flex h-full w-full select-none flex-col rounded-md bg-gradient-to-b from-muted/50 to-muted p-3 no-underline outline-none focus:shadow-md"
-                        href="/services"
-                      >
-                        <Image unoptimized className="w-full mix-h-[200px] h-full rounded-md object-cover" src={service?.image} width={0} height={0} alt="web development" />
-                        <div className="mb-2 mt-4 text-lg font-medium leading-5">
-                          {service.title[language]}
-                        </div>
-                        <p className="text-sm leading-tight text-muted-foreground">
-                          {service.short_description[language]}
-                        </p>
-                      </a>
-                    </NavigationMenuLink>
+                        <a
+                          className="flex h-full w-full select-none flex-col rounded-md bg-gradient-to-b from-muted/50 to-muted p-3 no-underline outline-none focus:shadow-md"
+                          href="/services"
+                        >
+                          <Image unoptimized className="w-full mix-h-[200px] h-full rounded-md object-cover" src={service?.image} width={0} height={0} alt="web development" />
+                          <div className="mb-2 mt-4 text-lg font-medium leading-5">
+                            {service.title[language]}
+                          </div>
+                          <p className="text-sm leading-tight text-muted-foreground">
+                            {service.short_description[language]}
+                          </p>
+                        </a>
+                      </NavigationMenuLink>
                     ))}
-                    
                   </li>
-                      {/* {isLoading && Array.from({length: 3}).map((_, index) => <Skeleton key={index} className="h-20 w-full rounded-md" />)} */}
-                    {services.filter((service: any) => !service.main).map((service: any, index: number) => (
-                      <ListItem
-                        key={index}
-                        href={'/services'}
-                        title={service.title[language]}
-                      >
-                        {service.description[language]}
-                      </ListItem>
-                    ))}
+                  {services.map((service: any, index: number) => (
+                    <ListItem
+                      key={index}
+                      href={'/services'}
+                      title={service.title[language]}
+                    >
+                      {service.description[language]}
+                    </ListItem>
+                  ))}
                 </ul>
               </NavigationMenuContent>
             </NavigationMenuItem>
@@ -118,12 +120,80 @@ const Navbar = () => {
           </NavigationMenuList>
         </NavigationMenu>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 md:gap-10">
           <ModeToggle />
-          <Separator className="h-6" orientation="vertical" />
+          <Separator className="h-6 hidden md:block" orientation="vertical" />
           <LanguageToggle />
-          <Separator className="h-6" orientation="vertical" />
-          <Button onClick={() => router.push("/contact")}>{t('navbar.startYourProject')}</Button>
+          <Separator className="h-6 hidden md:block" orientation="vertical" />
+          <Button onClick={() => router.push("/contact")} className="hidden md:block">
+            {t('navbar.startYourProject')}
+          </Button>
+          
+          <Sheet open={isOpen} onOpenChange={setIsOpen}>
+            <SheetTrigger asChild>
+              <Button variant="ghost" size="icon" className="md:hidden">
+                <Menu className="h-6 w-6" />
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+              <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
+              <div className="flex flex-col gap-6 mt-6">
+                <Link 
+                  href="/about" 
+                  className="text-lg font-medium hover:text-brand"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {t("navbar.about")}
+                </Link>
+                
+                <div className="flex flex-col gap-2">
+                  <h3 className="text-lg font-medium">{t('navbar.services')}</h3>
+                  {services.map((service: any, index: number) => (
+                    <Link
+                      key={index}
+                      href="/services"
+                      className="text-sm text-muted-foreground hover:text-brand pl-4"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {service.title[language]}
+                    </Link>
+                  ))}
+                </div>
+
+                <div className="flex flex-col gap-2">
+                  <h3 className="text-lg font-medium">{t('navbar.portfolio')}</h3>
+                  {portfolio.map((project: any, index: number) => (
+                    <Link
+                      key={index}
+                      href="/portfolio"
+                      className="text-sm text-muted-foreground hover:text-brand pl-4"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {project.title}
+                    </Link>
+                  ))}
+                </div>
+
+                <Link 
+                  href="/contact" 
+                  className="text-lg font-medium hover:text-brand"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {t("navbar.contact")}
+                </Link>
+
+                <Button
+                  onClick={() => {
+                    router.push("/contact");
+                    setIsOpen(false);
+                  }} 
+                  className="mt-4"
+                >
+                  {t('navbar.startYourProject')}
+                </Button>
+              </div>
+            </SheetContent>
+          </Sheet>
         </div>
       </div>
     </div>

@@ -13,8 +13,8 @@ const InformationSection = () => {
   }
 
   return (
-    <section className="container pb-[60px]">
-      <div className="flex flex-col gap-[30px] text-3xl leading-[48px]">
+    <section className="container px-4 md:px-6 pb-[30px] md:pb-[60px]">
+      <div className="flex flex-col gap-4 md:gap-[30px] text-lg md:text-2xl lg:text-3xl leading-relaxed md:leading-[48px]">
         <p dangerouslySetInnerHTML={{ __html: t('about.info') }} />
       </div>
     </section>
