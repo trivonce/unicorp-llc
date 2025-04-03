@@ -71,7 +71,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${poppins.variable} antialiased min-h-screen`}>
+      <body className={`${poppins.variable} antialiased min-h-screen overflow-x-hidden`}>
         <Aos />
         <NextTopLoader color="hsl(var(--brand))" />
         <TanstackProvider>
@@ -83,7 +83,7 @@ export default function RootLayout({
           >
             <I18nProvider>
               <Navbar />
-              <main className="pt-[120px]">{children}</main>
+              <main className="pt-[120px] overflow-x-hidden">{children}</main>
               <Footer />
             </I18nProvider>
           </ThemeProvider>
