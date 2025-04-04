@@ -16,10 +16,10 @@ const ProjectCard = (props: Props) => {
   const { image, title, description, tags, index, link } = props;
   const { t, i18n: { language }} = useTranslation()
   return (
-    <div className="flex flex-col md:grid md:grid-cols-2 gap-6 md:gap-[50px]">
+    <div className={`flex flex-col md:grid md:grid-cols-2 gap-6 md:gap-[50px]`}>
       <div 
         data-aos={index % 2 === 0 ? "fade-right" : "fade-left"} 
-        className="overflow-hidden rounded-md order-first md:order-none"
+        className={`overflow-hidden rounded-md ${index % 2 === 0 ? 'order-first' : 'order-last'}`}
       >
         <img 
           className="absolute top-0 left-0 w-full h-full -z-[1] blur-xl opacity-50" 
@@ -32,7 +32,7 @@ const ProjectCard = (props: Props) => {
           width={0}
           height={0}
           unoptimized
-          className="w-full h-[300px] md:h-[400px] lg:h-[500px] object-cover rounded-md hover:scale-105 duration-200"
+          className="w-full h-[300px] md:h-[400px] lg:h-[500px] object-contain rounded-md hover:scale-105 duration-200"
         />
       </div>
 
