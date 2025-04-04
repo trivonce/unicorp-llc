@@ -83,7 +83,7 @@ export default function RootLayout({
           >
             <I18nProvider>
               <Navbar />
-              <main className="pt-[120px] overflow-x-hidden">{children}</main>
+                <main className="pt-[120px] overflow-x-hidden">{children}</main>
               <Footer />
             </I18nProvider>
           </ThemeProvider>

@@ -1,53 +1,46 @@
 'use client'
 
-import Icon from "@/components/icon";
-import { Button } from "@/components/ui/button";
-import { useTranslation } from "react-i18next";
+import type { Metadata } from "next"
+import ContactForm from "./_components/contact-form"
+import ContactInfo from "./_components/contact-info"
+import ContactMap from "./_components/contact-map"
+import { Separator } from "@/components/ui/separator"
+import { useTranslation } from "react-i18next"
 
-const ContactInput = ({ className }: { className?: string }) => {
-  return (
-    <input
-      placeholder="Type here"
-      type="text"
-      className={`px-3 text-center border-b dark:border-white border-gray-600 bg-transparent outline-none w-full md:w-auto ${className}`}
-    />
-  );
-};
+export const metadata: Metadata = {
+  title: "Contact Us | UniCorp LLC",
+  description: "Get in touch with our team for inquiries, support, or partnership opportunities.",
+}
 
-const ContactView = () => {
-  const { t } = useTranslation();
+export default function ContactPage() {
+  const { t } = useTranslation()
 
   return (
-    <main className="container px-4 md:px-6 pt-20">
-      <div className="mb-12 md:mb-[120px] pb-12 md:pb-[120px]">
-        <h1 className="text-4xl md:text-6xl lg:text-[100px] items-center mb-6 md:mb-10 font-medium">
-          Let's Talk
-        </h1>
+    <main className="container py-12 md:py-20 overflow-hidden">
+      <div className="space-y-4 text-center mb-12" data-aos="fade-up">
+        <h1 className="text-fs50 md:text-fs60 font-bold text-foreground">{t('contact.title')}</h1>
+        <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
+          {t('contact.description')}
+        </p>
+      </div>
 
-        <form action="">
-          <div className="flex flex-col md:flex-wrap text-2xl md:text-3xl lg:text-[56px] gap-4 md:gap-x-8 md:gap-y-14">
-            <h1 className="text-center md:text-left">Hello, my full name is</h1>
-            <ContactInput className="w-full md:w-[300px] lg:w-[600px]" />
-            <h1 className="text-center md:text-left">and my phone number is</h1>
-            <ContactInput className="w-full md:w-[250px] lg:w-[500px]" />
-            <h1 className="text-center md:text-left">and my email</h1>
-            <ContactInput className="w-full md:w-[300px]" />
-          </div>
-          <Button
-            variant="link"
-            className="text-2xl md:text-3xl lg:text-[56px] group flex items-center gap-2 md:gap-5 float-end mt-6 md:mt-10"
-          >
-            Send{" "}
-            <Icon
-              className="dark:!bg-[#E0E0E0] !bg-black group-hover:!bg-brand group-hover:scale-125 duration-200 scale-75 md:scale-100"
-              size={32}
-              icon="arrow-top-right-long"
-            />
-          </Button>
-        </form>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+        <div data-aos="fade-right" data-aos-delay="100">
+          <ContactInfo />
+        </div>
+
+        <div data-aos="fade-left" data-aos-delay="200">
+          <ContactForm />
+        </div>
+      </div>
+
+      <Separator className="my-16" />
+
+      <div data-aos="fade-up" data-aos-delay="300">
+        <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Our Location</h2>
+        <ContactMap />
       </div>
     </main>
-  );
-};
+  )
+}
 
-export default ContactView;
